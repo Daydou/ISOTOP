@@ -1,0 +1,365 @@
+@font-face {
+    font-family: "century_gothicregular";
+    src: url("police/gothic-webfont.woff2") format("woff2"),
+      url("police/gothic-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "century_gothicregular";
+  }
+  
+.menu {
+   width: 100%;
+   height: 100%; 
+}
+  #logo {
+    height: 120px;
+    width: 450px;
+  }
+  #logo img {
+      width: 100%;
+      height: 100%;
+  }
+
+  #btn_testez a  {
+    display: inline-block;
+    text-decoration: none;
+    color: lightgray;
+    background: linear-gradient(to right, green, #303030, darkorange);
+    font-size: larger;
+    border: solid 3px  gray;
+    padding: 27px;
+    -webkit-animation-name: clignote;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-iteration-count:infinite; 
+    
+}
+@-webkit-keyframes clignote {
+    0% {
+      border: 3 px solid gray;
+      color: lightgray;
+    }
+    50% {
+      border: 3px solid aqua;
+      color: aqua;
+    }
+    100% {
+      border: 3px solid gray;
+      color: lightgray;
+    }
+  }
+#btn_testez  {
+    
+    text-decoration: none;
+    color: lightgray;
+   position: relative;
+    top: -90px;
+    left: 1150px;
+    width: 270px;
+    
+}
+
+#logo_tel {
+    height: 50px;
+     width: 50px;
+     position: relative;
+     top: 5px;
+     left: 90px;
+}
+#logo_tel img {
+    height: 100%;
+    width: 100%;
+}
+
+#btn_tel a {
+    
+    padding: 15px;
+    background: linear-gradient(to right, green, #303030, darkorange);
+    display: inline-block;
+    border: solid 3px gray;
+     -webkit-animation-name: clignote;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    text-decoration: none;
+
+    
+}
+#btn_tel  {
+    color: lightgray;
+    height: 100%;
+    width: 100%;
+    z-index: 6;
+}
+
+#telephone {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: relative;
+    top: -30px;
+    left: 1070px;
+    width: 300px;
+}
+ 
+#les_7btn {
+    position: relative;
+    top: 10px;
+    display: inline;
+}
+ .btn {
+    background: linear-gradient(to right, silver, lightgray, gray);
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn span, .btn a  {
+    color: #303030;
+    text-decoration: none;
+}
+.btn span:hover {
+    color: aqua;
+}
+#sous_metiers,#sous_rea,#sous_qui,#sous_cert {
+    display: none;
+    z-index: 5;
+    font-size: 15px;
+} 
+
+.sous {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    padding: 7px;
+    
+}
+#sous_qui  {
+    position: absolute;
+   width: 150%;
+   bottom: 264px;
+   left: 320px;
+}
+#titre_qui:hover #sous_qui {
+    display: block;
+}
+#titre_qui:hover {
+    width: 20%;
+}
+
+#titre_metiers:hover #sous_metiers {
+    display: block;
+}
+#sous_metiers {
+    position: absolute;
+    width: 180%;
+    left: 240px;
+    top: 90px;
+}
+.metiers {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#titre_metiers:hover {
+width: 20%;
+}
+
+
+
+#titre_cert:hover #sous_cert {
+    display: block;
+}
+#sous_cert {
+    position: absolute;
+    width: 60%;
+    left: 240px;
+    top: 200px;
+}
+.cert {
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+}
+#titre_cert:hover {
+width: 10%;
+}
+
+
+#titre_rea:hover #sous_rea {
+    display: block;
+}
+#sous_rea {
+    position: absolute;
+    width: 180%;
+    left: 240px;
+    top: 200px;
+}
+.rea {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#titre_rea:hover {
+width: 10%;
+
+}
+
+
+.rea a:hover,.cert a:hover,.metiers a:hover, #sous_qui a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+#les_7ellipses {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    left: 40px;
+    bottom: 350px;
+    width: 0%;
+}
+.ellipse {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 14px;
+}
+.ellipse img {
+    width: 100%;
+    height: 100%;
+}
+
+#titre_reseaux {
+    position: relative;
+    left: 30px;
+    bottom: 350px;
+    font-size: 20px;
+    color: #4d4e4c;
+    float: left;
+}
+
+#les_reseaux {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 20%;
+    position: relative;
+    right: 180px;
+    
+    bottom: 310px;
+
+    
+}
+.reseaux {
+     width: 35px;
+     height: 35px;
+     border: solid 2px grey;
+    
+}
+.reseaux img {
+    width: 100%;
+    height: 100%;
+}
+.reseaux:hover {
+    border: solid 3px aqua;
+}
+
+
+#les_liens {
+    display: inline-block;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+#img_tetris {
+    height: 45px;
+    width: 180px;
+    border-radius: 10px;
+    border: solid 3px gray;
+    position: relative;
+    right: 20px;
+    bottom: 350px;
+
+}
+#img_tetris img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+#img_tetris:hover {
+    border: solid 3px aqua;
+
+}
+#numero_tetris {
+    position: relative;
+    right: 10px;
+    bottom: 349px;
+    width: 180px;
+
+}
+
+#img_rge {
+    height: 45px;
+    width: 45px;
+    border-radius: 10px;
+    border: solid 3px gray;
+    position: relative;
+    bottom: 420px;
+
+    left: 190px;
+}
+#img_rge img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
+}
+#img_rge:hover {
+    border: solid 3px aqua;
+
+}
+#text_rge {
+    position: relative;
+    left: 170px;
+    bottom: 420px;
+    width: 80px;
+
+}
+
+#contenaire {
+    position: relative;
+    bottom: 130px;
+    height: 100%;
+}
+
+
+#img_tetris {
+    position: relative;
+    bottom: 280px;
+    left: 10px;
+}
+#numero_tetris {
+    position: relative;
+    bottom: 280px;
+    left: 20px;
+     width: 180px;
+}
+#img_rge {
+    position: relative;
+    bottom: 350px;
+    left: 230px;
+}
+#text_rge {
+    position: relative;
+    bottom: 350px;
+    left: 220px;
+    width: 100px;
+}

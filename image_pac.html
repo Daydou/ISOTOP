@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="menu.css" rel="stylesheet">
+    <style>
+        #les_liens {
+            position: relative;
+            left: 30px;
+        }
+        #titre {
+            color: gray;
+            position: absolute;
+            top: 100px;
+            left: 550px;
+            font-size: 25px;
+            
+        }
+        #les_img {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            position: relative;
+            bottom: 400px;
+            left: 150px;
+           width: 1070px;
+           height: 9000px;
+        }
+        .images {
+            width: 450px;
+            height: 450px;
+    
+           
+        }
+        
+        .images img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        
+        .label {
+            width: 120px;
+            height: 120px;
+           
+        }
+        .label img {
+            height: 100%;
+            width: 100%;
+            border-radius: 60px;
+        }
+        #les_label {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            position: absolute;
+            top: 300px;
+            left: 370px;
+            width: 1070px;
+            height:9000px;
+        }
+
+        @media screen and (max-width: 1260px) {
+            #les_img {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            position: relative;
+            bottom: 800px;
+            left: 310px;
+           width: 1070px;
+           height: 14500px;
+        }
+
+        .images_avant,.images_apres {
+            width: 400px;
+            height:400px;
+    
+           
+        }
+
+        #les_label {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            position: absolute;
+            top: 280px;
+            left: 370px;
+            width: 1070px;
+            height:14500px;
+        }
+
+        .label {
+            width: 100px;
+            height: 100px;
+           
+        }
+}
+    </style>
+</head>
+<body>
+    <section class="menu">
+
+        <div id="logo"> <a href="index.html"><img src="images/logo_iso.jpg" alt=""></a> </div> 
+
+        <div id="btn_testez"><a href="contact.html">Testez mon éligibilité</a> </div>
+
+
+        <div id="telephone">
+            <div id="logo_tel"> <img src="images/logo_telephone.jpeg" alt=""> </div>
+            <div id="btn_tel" ><a href="tel:06 87 49 65 93">06 87 49 65 93</a> </div>
+        </div>
+
+        <div id="contenaire">
+
+            <div id="les_7btn">
+    
+                <div id="titre_accueil" class="btn"><a href="index.html"><span>Accueil</span> </a></div>
+    
+                <br>
+    
+                <div id="titre_qui" class="btn"><span>Qui sommes-nous ?</span> 
+                    <div id="sous_qui" class="sous"> <a href="orga.html">Organigramme de la société</a> </div>
+                </div>
+    
+                <br>
+    
+                <div id="titre_metiers" class="btn"><span>Métiers</span> 
+                    <div id="sous_metiers" class="sous">
+                        <div id="les_metiers">
+                            <div class="metiers"><a href="ite.html">Isolation thermique des murs par l'extérieur</a></div>
+                            <div class="metiers"><a href="iti.html">Isolation thermique des murs par l'interieur</a></div>
+                            <div class="metiers"><a href="pac.html">Pompes à Chaleur</a></div>
+                            <div class="metiers"><a href="vmc.html">Vmc double flux</a></div>
+                            <div class="metiers"><a href="cag.html">Chaudière à granule</a></div>
+                            <div class="metiers"><a href="soufl.html">Isolation des combles par soufflage</a></div>
+                            <div class="metiers"><a href="sol.html">Isolation des combles en deroulé au sol</a></div>
+                            <div class="metiers"><a href="toit.html">Isolation des combles en rampant de toiture</a></div>
+                            <div class="metiers"><a href="couv.html">Couverture - Toiture</a></div>
+                            <div class="metiers"><a href="menuiserie.html">Menuiserie</a></div>
+                        </div>
+                    </div>
+                </div>
+    
+                <br>
+    
+                <div id="titre_part" class="btn"><a href="partenaire.html"><span>Partenaires</span> </a></div>
+    
+                <br>
+    
+                <div id="titre_cert" class="btn"><span>Certifications</span> 
+                    <div id="sous_cert" class="sous">
+                        <div class="cert"><a href="rge.html">Rge</a></div>
+                        <div class="cert"><a href="decennale.html">Décennale</a></div>
+                    </div>
+                </div>
+    
+                <br>
+    
+                <div id="titre_rea" class="btn"> <span>Réalisation</span> 
+                    <div id="sous_rea" class="sous">
+                        <div id="les_rea">
+                            <div class="rea"><a href="image_ite.html">Isolation thermique des murs par l'extérieur</a></div>
+                            <div class="rea"><a href="image_iti.html">Isolation thermique des murs par l'interieur</a></div>
+                            <div class="rea"><a href="image_pac.html">Pompes à Chaleur</a></div>
+                            <div class="rea"><a href="image_vmc.html">Vmc double flux</a></div>
+                            <div class="rea"><a href="image_cag.html">Chaudière à granule</a></div>
+                            <div class="rea"><a href="image_soufl.html">Isolation des combles par soufflage</a></div>
+                            <div class="rea"><a href="image_sol.html">Isolation des combles en deroulé au sol</a></div>
+                            <div class="rea"><a href="image_toit.html">Isolation des combles en rampant de toiture</a></div>
+                            <div class="rea"><a href="image_couv.html">Couverture - Toiture</a></div>
+                            <div class="rea"><a href="image_menuiserie.html">Menuiserie</a></div>
+                        </div>
+                    </div>
+                </div>
+    
+                <br>
+    
+                <div id="titre_contact" class="btn"><a href="contact.html"><span>Contact</span> </a></div>
+    
+            </div>
+        
+            <div id="les_7ellipses">
+                <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+                <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+                <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+                <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+                <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+                <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+                <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+            </div>
+    
+            <div id="titre_reseaux">Retrouvez-nous sur :</div>
+    
+            <div id="les_reseaux">
+                <div class="reseaux"> <a href="https://www.facebook.com/isotopfrance.fr"> <img src="images/fb_footer.jpeg" alt="FB"> </a> </div>
+                <div class="reseaux"> <a href="https://www.linkedin.com/company/isotop-france/mycompany/?viewAsMember=true"> <img src="images/snap.jpeg" alt="snap"> </a> </div>
+                <div class="reseaux"> <a href="https://www.linkedin.com/company/isotop-france/mycompany/?viewAsMember=true"> <img src="images/twitter.jpeg" alt="Twitter"> </a> </div>
+                <div class="reseaux"> <a href="https://www.instagram.com/isotop_france/?igshid=18crjsw3tgrlc"> <img src="images/insta_footer.jpeg" alt="Insta"> </a> </div>
+                <div class="reseaux"> <a href="https://www.linkedin.com/company/isotop-france/mycompany/?viewAsMember=true"> <img src="images/lkd_footer.jpeg" alt="Linkedin"> </a> </div>
+            </div>
+    
+    
+           
+    
+            <div id="les_liens">
+                <div id="img_tetris"> <a href="decennale.html"><img src="images/tetris.jpg" alt=""></a> </div>
+               <div id="numero_tetris">N° SV75018041T07762</div>
+               <div id="img_rge"> <a href="rge.html"><img src="images/rge.jpeg" alt=""></a> </div>
+               <div id="text_rge">E-E166224</div>
+               </div>
+    
+               </div>
+            
+        </section> 
+
+    <div id="titre"><p>Nos réalisations en Pompe à chaleur</p></div>
+
+    <section id="les_img">
+        <div id="image1" class="images" ><img src="images/image1_pac.jpeg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image3_pac.jpeg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image5_pac.jpeg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image6_pac.jpeg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image7_pac.jpeg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image8_pac.jpeg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image9_pac.jpeg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image10_pac.jpeg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image11_pac.jpeg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image12_pac.jpeg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image13_pac.jpeg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image14_pac.jpeg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image15_pac.jpeg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image16_pac.jpeg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image17_pac.jpeg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image18_pac.jpeg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image19_pac.jpeg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image20_pac.jpeg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image21_pac.jpeg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image22_pac.jpeg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image23_pac.jpg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image24_pac.jpg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image25_pac.jpg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image26_pac.jpg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image27_pac.jpg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image28_pac.jpg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image29_pac.jpg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image30_pac.jpg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image31_pac.jpg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image32_pac.jpg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image33_pac.jpg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image35_pac.jpg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image36_pac.jpg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image37_pac.jpg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image38_pac.jpg" alt=""></div>
+        <div id="image1" class="images" ><img src="images/image39_pac.jpg" alt=""></div>
+
+
+
+    </section>
+
+    <div id="les_label">
+
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_pac.jpeg" alt=""> </div>
+  
+
+   
+     </div>  
+
+</body>
+</html>

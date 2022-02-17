@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <style>
+         @font-face {
+    font-family: 'century_gothicregular';
+    src: url('police/gothic-webfont.woff2') format('woff2'),
+         url('police/gothic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px; 
+    font-family: 'century_gothicregular';
+ overflow: hidden;
+
+
+}
+.btn_tel a{
+    width: 160px;
+    text-align: center;
+    padding: 5px;
+    background: linear-gradient(to right, green, #303030, darkorange);
+    position: relative;
+    left: 1050px;
+    bottom: 100px;
+    border: solid 3px gray;
+    color: lightgray;
+    text-decoration: none;
+    -webkit-animation-name: clignote;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-iteration-count:infinite; 
+}
+.btn_tel{
+    position: relative;
+   
+}
+.part {
+    width: 100%;
+    height: 100%;
+}
+
+#photo1 {
+    width: 100%;
+    height: 100%;
+}
+
+.head {
+    position: relative;
+    bottom: 530px;
+    left: 20px;
+ 
+    font-size: 22px;
+    
+    
+}
+
+.head div {
+    margin-bottom: 10px;
+}
+
+.apparait {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    padding-right: 6px;
+    left: 180px;
+    top: 113px;
+    display: none;
+    z-index: 3;
+ 
+}
+.rea span:hover {
+    color: aqua;
+}
+
+.les_m {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+
+    
+}
+.les_m a:hover {
+  color: blue;
+  text-decoration: underline;
+
+}
+.metier span  {
+    color: #303030;
+}
+.metier {
+    width: 122px;
+    background: linear-gradient(to right, silver,lightgray, gray);
+    padding: 4px;
+    border-radius: 5px;
+}
+.metier span:hover {
+    color:  aqua;
+    
+}
+.metier:hover {
+    width: 180px; 
+}
+
+.apparait div {
+    margin-left: 10px;
+}
+.metier:hover .apparait {
+  display: block;
+}
+.head a {
+text-decoration: none;
+color: #303030;
+}
+#pouce {
+    width: 275px;
+    background: linear-gradient(to right, silver,lightgray, gray);
+    padding: 4px;
+    border-radius: 5px;
+}
+
+
+#pouce a:hover {
+    color: aqua; 
+}
+
+#qui:hover .apparait3 {
+  display: block;
+}
+.apparait3 {
+    border: 1px solid black;
+    border-radius: 5px;
+background-color: white;    width: 260px;
+    position: absolute;
+    left: 240px;
+    top: 76px;
+    display: none;
+    height: 40px;
+    
+ 
+}
+.les_a {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#orga {
+    width: 220px;
+    font-size: 15px;
+
+}
+#orga a:hover {
+   color: blue;
+   text-decoration: underline;
+}
+#qui {
+    width: 210px; 
+    background: linear-gradient(to right, gray,lightgray, gray);
+    padding: 4px;
+    border-radius: 5px;
+}
+#qui:hover {
+    color: aqua;
+    width: 240px;
+}
+
+#part {
+    width: 120px;
+    background: linear-gradient(to right, gray,lightgray, gray);
+    padding: 4px;
+    border-radius: 5px;
+   
+}
+#part a:hover {
+    color:  aqua;    
+}
+#cert {
+    width: 140px;
+    background: linear-gradient(to right, silver,lightgray, gray);
+    padding: 4px;
+    border-radius: 5px;
+    
+}
+#cert:hover {
+    color:  aqua;   
+}
+#cert:hover {
+    width: 190px;
+}
+.rea {
+    width: 125px;
+    background: linear-gradient(to right, gray,lightgray, gray);
+    padding: 4px;
+    border-radius: 5px;
+
+    
+}
+.rea a:hover {
+    color:  aqua;    
+}
+
+#contact {
+    width: 90px;
+    background: linear-gradient(to right, silver,lightgray, gray);
+    padding: 4px;
+    border-radius: 5px;
+    
+}
+#contact a:hover {
+    color:  aqua;    
+}
+
+
+.sous_part {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    width: 140px;
+    padding: 3px;
+    position: absolute;
+    left: 170px;
+    top: 206px;
+    display: none;
+    height: 45px;
+    
+}
+#cert:hover .sous_part {
+  display: block;
+}
+#rge  {
+    position: relative;
+    font-size: 15px;
+
+}
+#rge a:hover {
+    color: blue;
+    text-decoration: underline;
+
+}
+#decennale {
+    position: relative;
+   bottom: 5px;
+    font-size: 15px;
+
+}
+#decennale a:hover {
+    color: blue;
+    text-decoration: underline;
+
+}
+
+.sous_part div {
+    margin-left: 10px;
+}
+
+.partie1 a {
+    text-decoration: none;
+    color: lightgray;
+    background: linear-gradient(to right, green, #303030, darkorange);
+    font-size: larger;
+    border: solid 3px  gray;
+    padding: 27px;
+    -webkit-animation-name: clignote;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-iteration-count:infinite; 
+}
+
+.partie1 {
+    position: relative;
+    bottom: 400px;
+    left: 550px;
+}
+
+@-webkit-keyframes clignote {
+    0%{border: 3px solid gray; color: lightgray;}
+50%{border:3px solid aqua; color: aqua;}
+100%{border:  3px solid gray; color: lightgray;}
+
+
+
+
+}
+
+#les_reseaux {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    position: relative;
+    width: 270px;
+   bottom: 240px;
+   left: 30px;
+}
+#les_reseaux img {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    
+    
+}
+
+#insta {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: solid 2px grey;
+}
+#insta:hover {
+    border: solid 3px aqua;
+}
+#lkd {
+    position: relative;
+    border: solid 2px grey;
+    width: 40px;
+    height: 40px;
+}
+#lkd:hover {
+    border: solid 3px aqua;
+}
+#fb {
+    border: solid 2px grey;
+    width: 40px;
+    height: 40px;
+}
+#fb:hover {
+    border: solid 3px aqua;
+}
+#twi {
+    border: solid 2px grey;
+    width: 40px;
+    height: 40px;
+}
+#twi:hover {
+    border: solid 3px aqua;
+}
+#snap {
+    border: solid 2px grey;
+    width: 40px;
+    height: 40px;
+}
+#snap:hover {
+    border: solid 3px aqua;
+}
+
+
+.apparait2 {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    z-index: 3;
+    position: absolute;
+    left: 170px;
+    top: 210px;
+    display: none;
+    padding-right: 6px;
+}
+.rea:hover .apparait2 {
+    display: block;
+}
+.rea:hover {
+    width: 170px;
+}
+.les_d {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.les_d a:hover {
+  color: blue;
+  text-decoration: underline;
+
+}
+#retrouvez {
+    position: absolute;
+    top: -30px;
+    width: 230px;
+    height: 30px;
+    font-size: 21px;
+    color: #4d4e4c;
+}
+#numsv {
+    position: absolute;
+    left: 1200px;
+    width: 170px;
+    bottom: 110px;
+    color: dimgray;
+    font-size: small;
+}
+#numquali {
+    position: absolute;
+    left: 1200px;
+    width: 170px;
+    bottom: 20px;
+    color: lightgray;
+    font-size: small;
+}
+#lien_tetris {
+        border: solid 3px gray;
+        position: relative;
+        width: 215px;
+        height: 40px;
+        border-radius: 10px;
+        bottom: 202px;
+        left: 1199px;
+    }
+    #lien_tetris:hover {
+        border: solid 3px aqua;
+    }
+    #lien_tetris2 {
+        display: block;
+        height: 100%;
+        width: 100%;
+        text-decoration: none;
+    }
+    #lien_rge {
+        border: solid 3px gray;
+        position: relative;
+        width: 50px;
+        height: 60px;
+        left: 1199px;
+        bottom: 173px;
+    }
+    #lien_rge:hover {
+        border: solid 3px aqua;
+
+    }
+    #lien_rge2 {
+        display: block;
+        height: 100%;
+        width: 100%;
+        text-decoration: none;
+    }
+
+    
+
+    
+    
+
+    </style>
+</head>
+<body>
+    
+    <section class="part">
+        
+     <img id="photo1"src="images/img_fb_couv2.jpg" alt="telephone">
+     <section class="head">
+          <section class="btn_tel">
+        <div id="telephone"><a href="tel=+33155258865">06 87 49 65 93</a></div>
+    </section>
+
+     <div id="pouce"><a href="pouces.html">Ils nous ont fais confiance</a> </div>
+
+     <div id="qui">Qui sommes-nous ?
+        <div class="apparait3">
+            <div class="les_a">
+            <div id="orga"><a href="orga.html">Organigramme de la société</a></div>
+            </div>
+        </div></div>
+     <div class="metier">  <span>Nos métiers</span> 
+        <div class="apparait">
+            <div class="les_m">
+            <div id="ite"><a href="ite.html">Isolation thermique extérieur</a></div>
+            <div id="int"><a href="iti.html">Isolation thermique intérieur</a></div>
+            <div id="com"><a href="pac.html">Pompe à chaleur</a></div>
+            <div id="plan"><a href="vmc.html">VMC double flux</a></div>
+            <div id="pac"><a href="cag.html">Chaudière à granule</a></div>
+            <div id="flo"><a href="soufl.html">Isolation des combles par soufflage</a></div>
+            <div id="sol"><a href="sol.html">Isolation des combles en deroulé au sol</a></div>
+            <div id="toit"><a href="toit.html">Isolation des combles en rampant de toiture</a></div>
+            <div id="toi"><a href="couv.html">Couverture - Toiture</a></div>
+            <div id="toi"><a href="menuiserie.html">Menuiserie</a></div>
+
+
+            </div>
+        </div>
+    </div>
+    
+        <div id="part"><a href="partenaire.html">Partenaires</a></div>
+        <div id="cert">Certifications
+            <div class="sous_part">
+                <div id="rge"><a href="rge.html">Rge</a></div>
+                <div id="decennale"><a href="decennale.html">Décennale</a></div>
+            </div>
+        </div>
+        <div class="rea"><span>Réalisations</span>
+            <div class="apparait2">
+                <div class="les_d">
+                    <div id="ite"><a href="image_ite.html">Isolation thermique extérieur</a></div>
+                    <div id="int"><a href="image_iti.html">Isolation thermique intérieur</a></div>
+                    <div id="com"><a href="image_pac.html">Pompe à chaleur</a></div>
+                    <div id="plan"><a href="image_vmc.html">VMC double flux</a></div>
+                    <div id="pac"><a href="image_cag.html">Chaudière à granule</a></div>
+                    <div id="flo"><a href="image_soufl.html">Isolation des combles par soufflage</a></div>
+                    <div id="sol"><a href="image_sol.html">Isolation des combles en deroulé au sol</a></div>
+                    <div id="toit"><a href="image_toit.html">Isolation des combles en rampant de toiture</a></div>
+                    <div id="toi"><a href="image_couv.html">Couverture - Toiture</a></div>
+                    <div id="toi"><a href="image_menuiserie.html">Menuiserie</a></div>
+
+                </div>
+            </div>
+        </div>
+        <div id="contact"><a href="contact.html">Contact</a></div>
+
+        
+
+</section>
+
+     </section>
+    
+     <section class="partie1">
+         
+     <div id="lien_eligibilite_bloc1"><a href="contact.html">Je veut tester mon éligibilité</a></div>
+    
+    </section>
+    <div id="numsv">N° SV75018041T07762</div>
+    <div id="numquali">E-E166224</div>
+    <div id="lien_tetris"><a id="lien_tetris2"  href="decennale.html"></a></div>
+    <div id="lien_rge"><a id="lien_rge2"  href="rge.html"></a></div>
+   
+   
+
+
+    <div id="les_reseaux">
+        <div id="retrouvez">Retrouvez nous sur...</div>
+        <div id="fb">
+            
+            <a href="https://www.facebook.com/isotopfrance.fr" >
+                <img src="images/fb_footer.jpeg" alt="logo">
+                </a>
+            </div>
+            <div id="snap">
+                <a href="https://www.linkedin.com/company/isotop-france/mycompany/?viewAsMember=true" >
+                    <img src="images/snap.jpeg" alt="logo">
+                </a>
+                </div>
+                <div id="twi">
+                    <a href="https://www.linkedin.com/company/isotop-france/mycompany/?viewAsMember=true" >
+                        <img src="images/twitter.jpeg" alt="logo">
+                    </a>
+                    </div>
+                    <div id="insta">
+                        <a href="https://www.instagram.com/isotop_france/?igshid=18crjsw3tgrlc">
+                        <img src="images/insta_footer.jpeg" alt="logo">
+                        </a>
+
+                    </div>
+                    <div id="lkd">
+                        <a href="https://www.linkedin.com/company/isotop-france/mycompany/?viewAsMember=true" >
+                            <img src="images/lkd_footer.jpeg" alt="logo">
+                        </a>
+                        </div>
+    
+         </div>
+
+</body>
+</html>
+
+
+
+
+
+    

@@ -1,0 +1,302 @@
+
+
+   form {
+       background-color: ghostwhite;
+          border-radius: 5px;
+          border: solid 1px black;
+          position: absolute;
+          top: 100px;
+          width: 700px;
+          height: 650px;
+          left: 450px;
+          overflow: scroll;
+          overflow-x: hidden ;
+   }
+  
+   #titre1 {
+       width: 690px;
+   position: relative;
+   left: 10px;
+   top: 50px;
+   color: #303030;
+   font-size: 20px;
+   }
+   #p1 {
+       color: #72c20b;
+   }
+   #p2 {
+       color: #303030;
+   }
+   #p3 {
+       color: darkorange;
+   }
+   
+   .text2_step5 {
+       position: relative;
+   left: 70px;
+   top: 190px;
+   color: #303030;
+   font-size: 18px;
+   font-weight: bolder;
+   width: 580px;
+   }
+   
+  
+   
+      #trait1 {
+          width: 11px;
+          height: 11px;
+          background-color: white;
+          border-radius: 40px;
+      }
+      #trait2 {
+       width: 11px;
+          height: 11px;
+          background-color: white;
+          border-radius: 40px;
+      }
+      #trait3 {
+       width: 11px;
+          height: 11px;
+          background-color: white;
+          border-radius: 40px;
+      }
+      #trait4 {
+       width: 11px;
+          height: 11px;
+          background-color: white;
+          border-radius: 40px;
+      }
+      #trait5 {
+       width: 11px;
+          height: 11px;
+          background-color: white;
+          border-radius: 40px;
+      }
+      #trait6 {
+       width: 11px;
+          height: 11px;
+          background-color: white;
+          border-radius: 40px;
+      }
+      #trait7 {
+       width: 11px;
+          height: 11px;
+          background-color: white;
+          border-radius: 40px;
+      }
+      #trait8 {
+       width: 11px;
+          height: 11px;
+          background-color: white;
+          border-radius: 40px;
+      }
+      #trait9 {
+       width: 11px;
+          height: 11px;
+          background-color: white;
+          border-radius: 40px;
+      }
+      #trait10 {
+       width: 11px;
+          height: 11px;
+          background-color: white;
+          border-radius: 40px;
+      }
+   
+      #trait11 {
+       width: 11px;
+          height: 11px;
+          background-color: white;
+          border-radius: 40px;
+      }
+      progress {
+       display:inline-block;
+       width:100%;
+       height:20px;
+       padding:15px 0 0 0;
+       margin:0;
+       background:none;
+       border: 0;
+       border-radius: 15px;
+       text-align: left;
+       position:relative;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 0.8em;
+       top: 79px;
+      }
+      progress::-webkit-progress-bar {
+       height:11px;
+       width:100%;
+       margin:0 auto;
+       background-color: #CCC;
+       border-radius: 15px;
+   }
+   progress::-webkit-progress-value {
+       display:inline-block;
+       height:11px;
+       margin:0px -10px 0 0;
+       background: linear-gradient(to right, #72c20b, #303030, darkorange);
+       border-radius: 15px;
+       float:left;
+   
+   }
+   
+  
+   
+   #image1_step5_visible {
+       position: absolute;
+       top: 309px;
+       left: 40px;
+   }
+   #image2_step5_visible {
+       position: absolute;
+       top: 309px;
+       left: 270px;
+   }
+   #image3_step5_visible {
+       position: absolute;
+       top: 309px;
+       left: 507px;
+   }
+   #image4_step5_visible {
+       position: absolute;
+       top: 560px;
+       left: 40px;
+   }
+   #image5_step5_visible {
+       position: absolute;
+       top: 560px;
+       left: 270px;
+   }
+   #image6_step5_visible {
+       position: absolute;
+       top: 560px;
+       left: 507px;
+   }
+   #image7_step5_visible {
+       position: absolute;
+       top: 800px;
+       left: 40px;
+   }
+   #image8_step5_visible {
+       position: absolute;
+       top: 800px;
+       left: 270px;
+   }
+   #image9_step5_visible {
+       position: absolute;
+       top: 800px;
+       left: 507px;
+   }
+   #image10_step5_visible {
+       position: absolute;
+       top: 1050px;
+       left: 40px;
+   }
+   #text_image1_step5 {
+       position: relative;
+           top: 410px;
+           left: 40px;
+           width: 180px;
+   }
+   #text_image2_step5 {
+       position: relative;
+          left: 260px;
+          top: 390px;
+          width: 170px;
+   }
+   #text_image3_step5 {
+       position: relative;
+          left: 515px;
+          top: 370px;
+           width: 170px;
+   }
+   #text_image4_step5 {
+       position: relative;
+           top: 600px;
+           left: 50px;
+           width: 250px;
+   }
+   #text_image5_step5 {
+       position: relative;
+           top: 580px;
+           left: 290px;
+           width: 140px;
+   }
+   
+   
+   #suivant_step5 {
+           background: linear-gradient(to right, #72c20b, #303030, darkorange);
+     border: solid 1px black;
+     border-radius: 7px;
+     padding: 10px;
+     font-size: 16px;
+     width: 120px;
+     position: absolute;
+     color: lightgray;
+     bottom: -220px;
+     right: 70px;
+     height: 40px;
+     cursor: pointer;
+   }
+   #suivant_step5:hover {
+       border: solid 3px aqua;
+       color: aqua;
+   }
+   input[type=checkbox]{
+    display: none;
+}
+#retour_step5 {
+    background: linear-gradient(to right, #72c20b, #303030, darkorange);
+  border: solid 1px black;
+  border-radius: 7px;
+  padding: 10px;
+  font-size: 16px;
+  width: 120px;
+  position: absolute;
+  color: lightgray;
+position: absolute;
+left: 70px;
+bottom: -220px;
+height: 40px;
+  cursor: pointer;
+
+}
+#retour_step5:hover {
+    border: solid 3px aqua;
+    color: aqua;
+}
+.valider5 {
+    height: 30px;
+    width: 30px;
+    display: none;
+}
+
+#image_valider1_step5{
+    position: absolute;
+    top: 275px;
+    left: 160px;
+    }
+    #image_valider2_step5{
+        position: absolute;
+        top: 275px;
+        left: 390px;
+    }
+    #image_valider3_step5{
+        position: absolute;
+        top: 275px;
+        left: 625px;
+    
+    }
+    #image_valider4_step5{
+        position: absolute;
+        top: 525px;
+        left: 160px;
+    }
+    #image_valider5_step5{
+        position: absolute;
+        top: 525px;
+        left: 390px;
+    }
+

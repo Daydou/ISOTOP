@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isotopfrance</title>
+    <link href="menu.css" rel="stylesheet">
+
+    
+    <style>
+#btn_testez a  {
+    display: inline-block;
+    text-decoration: none;
+    color: lightgray;
+    background: linear-gradient(to right, green, #303030, darkorange);
+    font-size: larger;
+    border: 3px solid gray;
+    padding: 5px;
+    border-radius: 100px;
+    -webkit-animation-name: clignote;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-iteration-count:infinite; 
+    
+}
+#btn_testez  {
+    text-decoration: none;
+    color: lightgray;
+    position: absolute;
+    top: 530px;
+    left: 40px;
+}
+#titre_reseaux {
+    position: relative;
+    bottom:  290px;
+}
+#les_reseaux {
+    position: relative;
+    bottom: 250px;
+}
+#img_tetris {
+    position: relative;
+    bottom: 220px;
+    left: 10px;
+}
+#numero_tetris {
+    position: relative;
+    bottom: 220px;
+    left: 20px;
+    width: 180px;
+}
+#img_rge {
+    position: relative;
+    bottom: 290px;
+    left: 230px;
+}
+#text_rge {
+    position: relative;
+    bottom: 290px;
+    left: 220px;
+    width: 100px;
+}
+#telephone {
+    position: absolute;
+    left: -60px;
+    top: 800px;
+}
+#btn_tel {
+    position: relative;
+    right: 5px;
+}
+
+
+.bubble-text{
+    color:#303030; 
+    border-radius:3px;
+    padding-left: 15px;
+    left: 1010px;
+    width: 380px;
+    bottom: 650px;
+    position: relative;
+    border: solid 4px aqua;
+}
+
+.bubble-text::after{
+content:""; 
+border-top:20px solid transparent;
+border-bottom:20px solid transparent;
+border-right: 20px solid ;
+position: absolute;
+top: 178px;
+right: 398px;
+color: aqua;
+}
+
+.bubble-text2{
+    color:#303030; 
+    border-radius:3px;
+    padding-left: 15px;
+    left: 1010px;
+    width: 380px;
+    bottom: 630px;
+    position: relative;
+    border: solid 4px 	#FF1493;
+}
+.bubble-text2 span {
+    width: 100%;
+}
+.bubble-text2::after{
+content:""; 
+border-top:20px solid transparent;
+border-bottom:20px solid transparent;
+border-right: 20px solid ;
+position: absolute;
+top: 178px;
+right: 398px;
+color: 	#FF1493;
+}
+.les_img {
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    position: absolute;
+    bottom: -100px;
+    left: 400px;
+    width: 300px;
+    border-radius: 5px;
+    padding: 5px;
+    white-space: 1px;
+
+}
+.les_img img {
+    width: 100%;
+    height: 100%;
+}
+.les_img div {
+    width: 110px;
+    height: 110px;
+}
+
+#cdf {
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    z-index: -2;
+    
+}
+#cdf img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+   </style>
+
+</head>
+<body>
+    <section class="menu">
+
+        <div id="logo"> <a href="index.html"><img src="images/logo_iso.jpg" alt=""></a> </div> 
+
+        <div id="btn_testez"><a href="contact.html">Testez mon éligibilité</a> </div>
+
+
+        <div id="telephone">
+            <div id="logo_tel"> <img src="images/logo_telephone.jpeg" alt=""> </div>
+            <div id="btn_tel" ><a href="tel:06 87 49 65 93">06 87 49 65 93</a> </div>
+        </div>
+
+        <div id="les_7btn">
+
+            <div id="titre_accueil" class="btn"><a href="index.html"><span>Accueil</span> </a></div>
+
+            <br>
+
+            <div id="titre_qui" class="btn"><span>Qui sommes-nous ?</span> 
+                <div id="sous_qui" class="sous"> <a href="orga.html">Organigramme de la société</a> </div>
+            </div>
+
+            <br>
+
+            <div id="titre_metiers" class="btn"><span>Métiers</span> 
+                <div id="sous_metiers" class="sous">
+                    <div id="les_metiers">
+                        <div class="metiers"><a href="ite.html">Isolation thermique des murs par l'extérieur</a></div>
+                        <div class="metiers"><a href="iti.html">Isolation thermique des murs par l'interieur</a></div>
+                        <div class="metiers"><a href="pac.html">Pompes à Chaleur</a></div>
+                        <div class="metiers"><a href="vmc.html">Vmc double flux</a></div>
+                        <div class="metiers"><a href="cag.html">Chaudière à granule</a></div>
+                        <div class="metiers"><a href="soufl.html">Isolation des combles par soufflage</a></div>
+                        <div class="metiers"><a href="sol.html">Isolation des combles en deroulé au sol</a></div>
+                        <div class="metiers"><a href="toit.html">Isolation des combles en rampant de toiture</a></div>
+                        <div class="metiers"><a href="couv.html">Couverture - Toiture</a></div>
+                        <div class="metiers"><a href="menuiserie.html">Menuiserie</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div id="titre_pouces" class="btn">
+                <a href="pouces.html"><span>Ils nous ont fais confiance </span></a>
+            </div>
+            <br>
+
+            <div id="titre_cert" class="btn"><span>Certifications</span> 
+                <div id="sous_cert" class="sous">
+                    <div class="cert"><a href="rge.html">Rge</a></div>
+                    <div class="cert"><a href="decennale.html">Décennale</a></div>
+                </div>
+            </div>
+
+            <br>
+
+            <div id="titre_rea" class="btn"> <span>Réalisation</span>
+                <div id="sous_rea" class="sous">
+                    <div id="les_rea">
+                        <div class="rea"><a href="image_ite.html">Isolation thermique des murs par l'extérieur</a></div>
+                        <div class="rea"><a href="image_iti.html">Isolation thermique des murs par l'interieur</a></div>
+                        <div class="rea"><a href="image_pac.html">Pompes à Chaleur</a></div>
+                        <div class="rea"><a href="image_vmc.html">Vmc double flux</a></div>
+                        <div class="rea"><a href="image_cag.html">Chaudière à granule</a></div>
+                        <div class="rea"><a href="image_soufl.html">Isolation des combles par soufflage</a></div>
+                        <div class="rea"><a href="image_sol.html">Isolation des combles en deroulé au sol</a></div>
+                        <div class="rea"><a href="image_toit.html">Isolation des combles en rampant de toiture</a></div>
+                        <div class="rea"><a href="image_couv.html">Couverture - Toiture</a></div>
+                        <div class="rea"><a href="image_menuiserie.html">Menuiserie</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div id="titre_contact" class="btn"><a href="contact.html"><span>Contact</span> </a></div>
+
+        </div>
+    
+        <div id="les_7ellipses">
+            <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+            <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+            <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+            <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+            <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+            <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+            <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+        </div>
+
+        <div id="titre_reseaux">Retrouvez-nous sur :</div>
+
+        <div id="les_reseaux">
+            <div class="reseaux"> <a href="https://www.facebook.com/isotopfrance.fr"> <img src="images/fb_footer.jpeg" alt="FB"> </a> </div>
+            <div class="reseaux"> <a href="https://www.linkedin.com/company/isotop-france/mycompany/?viewAsMember=true"> <img src="images/snap.jpeg" alt="snap"> </a> </div>
+            <div class="reseaux"> <a href="https://www.linkedin.com/company/isotop-france/mycompany/?viewAsMember=true"> <img src="images/twitter.jpeg" alt="Twitter"> </a> </div>
+            <div class="reseaux"> <a href="https://www.instagram.com/isotop_france/?igshid=18crjsw3tgrlc"> <img src="images/insta_footer.jpeg" alt="Insta"> </a> </div>
+            <div class="reseaux"> <a href="https://www.linkedin.com/company/isotop-france/mycompany/?viewAsMember=true"> <img src="images/lkd_footer.jpeg" alt="Linkedin"> </a> </div>
+        </div>
+
+
+       
+
+       
+            <div id="img_tetris"> <a href="decennale.html"><img src="images/tetris.jpg" alt=""></a> </div>
+           <div id="numero_tetris">N° SV75018041T07762</div>
+           <div id="img_rge"> <a href="rge.html"><img src="images/rge.jpeg" alt=""></a> </div>
+           <div id="text_rge">E-E166224</div>
+           
+           
+    </section>
+         <div id="cdf"><img src="images/cdf.jpeg" alt="cdf"> </div>
+       
+            <div class="bubble-text">
+                <p>
+            <h1>Isotop France </h1> 
+            34 rue Camille Pelletan, 92300 Levallois Perret <br>
+            Administrarif : <a href="tel:01 47 99 88 86">01 47 99 88 86</a> <br>
+            Permanence : <a href="tel:06 87 49 65 93">06 87 49 65 93</a> <br>
+            Mail : <a href="mailto:contact@isotopfrance.fr">contact@isotopfrance.fr</a> <br>
+            RGE Qualibat : E166224 <br>
+            Décénale : N° SV75018041T07762
+        </p>
+          </div>
+          </div>
+
+
+        
+            <div class="bubble-text2">
+                <p>
+                    <h1>Isotop Centre-Est </h1> 
+                   <span> 70 avenue des Bruyères, 69150 Décines Charpieu </span><br>
+                    Administrarif : <a href="tel:04 86 68 92 92">04 86 68 92 92</a> <br>
+                    Permanence : <a href="tel:06 21 81 82 00">06 21 81 82 00</a> <br>
+                    Mail : <a href="mailto:info@isotopcentreest.fr">info@isotopcentreest.fr</a> <br>
+                    RGE Qualibat : E178717 <br>
+                    Décénale : N° SV75018041T03242
+                
+                </p>
+          </div>
+         
+        
+          
+
+ 
+<section class="les_img">
+    <div> <img src="images/rge_part.jpg" alt=""></div>
+    <div> <img src="images/cee.jpeg" alt=""></div>
+    <div> <img src="images/maprime.jpg" alt=""></div>
+    <div> <img src="images/cetelem.jpeg" alt=""></div>
+    <div> <img src="images/cofidis.jpeg" alt=""></div>
+    <div> <img src="images/ministere.jpg" alt=""></div>
+    <div> <img src="images/isover.jpeg" alt=""></div>
+    <div> <img src="images/actis.jpeg" alt=""></div>
+    <div> <img src="images/volcalis.jpeg" alt=""></div>
+    <div> <img src="images/polyprod.jpeg" alt=""></div>
+    <div> <img src="images/placo.jpeg" alt=""></div>
+    <div> <img src="images/acermi.jpeg" alt=""></div>
+    <div> <img src="images/klygroupe.jpeg" alt=""></div>
+    <div> <img src="images/igloo.jpeg" alt=""></div>
+    <div> <img src="images/rockwool.jpeg" alt=""></div>
+    <div> <img src="images/ursa.jpeg" alt=""></div>
+    <div> <img src="images/siniat.jpeg" alt=""></div>
+    <div> <img src="images/knauf.jpeg" alt=""></div>
+
+
+</section>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+

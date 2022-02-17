@@ -1,0 +1,58 @@
+.my-button{
+    background: linear-gradient(to right, #72c20b, #303030, darkorange);
+    border: solid 1px black;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 16px;
+    color: lightgray;
+    width: 120px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    top: 0;
+}
+
+.my-button.visible{
+    display: block;
+}
+
+.my-button.confirmation{
+   
+   position: absolute;
+   right: 50px;
+}
+.my-button.confirmation:hover{
+    border: solid 3px aqua;
+}
+
+
+.my-button.back{
+   position: absolute;
+   left: 50px; 
+}
+
+
+.my-button.back:hover{
+   border: solid 3px aqua;
+}
+
+
+.step-container{
+    display: none;
+}
+
+.step-container.visible{
+    display: block;
+}
+.step-container{
+    display: none;
+}
+
+.step-container.visible{
+    display: block;
+}
+
+.bordur {
+   border: solid 5px aqua;
+}

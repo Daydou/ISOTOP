@@ -1,0 +1,1702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isotopfrance</title>
+    <link href="menu.css" rel="stylesheet">
+
+    
+    <style>
+
+
+#les_liens {
+   z-index: 7;
+}
+   
+    .les_c {
+    position: relative;
+   bottom: 780px;
+    left: 140px;
+    transform: scale(0.6);
+    height: 100%;
+
+    }
+
+#cercle111 img {
+  
+    height: 100%;
+    width: 100%;
+    border-radius: 80px;
+   
+}
+#cercle111 {
+    border: solid 1px black;
+    border-radius: 80px;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    left: 595px;
+    
+}
+#cercle111:hover {
+    border: solid 5px aqua;
+}
+#cercle111:hover #bulle1 {
+    display: block;
+}
+#cercle111:hover #l1 {
+    color: orange;
+}
+#cercle111:hover #l2 {
+    color: green;
+}
+#laurent {
+   width: 140px;
+   position: relative;
+   right: 5px;
+}
+#bulle1 {
+    position: relative;
+    left: 205px;
+    border: solid 2px #303030;
+    width: 600px;
+    height: 170px;
+    bottom: 108px;
+    border-radius: 60px;
+    display: none;
+    z-index: 15;
+    background-color: aliceblue;
+}
+#tel_img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 80px;
+    right: 10px;
+}
+#mail_img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 50px;
+    right: 10px;
+}
+#form_img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+   top: 7px;
+   left: 35px;
+}
+
+#bulle1 #nom_bulle {
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+#mail_bulle {
+position: relative;
+left: 30px;
+bottom: 15px;
+}
+#mail_bulle a {
+    text-decoration: none;
+    color: black;
+}
+#mail_bulle a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+#prof_bulle {
+    position: relative;
+    bottom: 30px;
+    border: solid 1px black;
+    width: 260px;
+    padding: 15px;
+    font-size: 20px;
+    left: 40px;
+}
+#text_bulle span {
+    position: relative;
+    left: 70px;
+}
+#tel_bulle {
+    position: relative;
+    left: 30px;
+}
+#tel_bulle a {
+    text-decoration: none;
+    color: black;
+}
+#tel_bulle a:hover {
+    color: aqua;
+    text-decoration: underline;
+
+}
+#cercleb1 {
+    position: relative;
+    left: 12px;
+    top: 15px;
+    border-radius: 100px;
+    height: 110px;
+    width: 110px;
+}
+.cercleb2 {
+    position: relative;
+    left: 12px;
+    top: 15px;
+    border-radius: 100px;
+    height: 110px;
+    width: 110px;
+
+}
+#cercleb2 {
+    position: relative;
+    left: 12px;
+    top: -15px;
+    border-radius: 100px;
+    height: 110px;
+    width: 110px;
+
+}
+#text_bulle {
+position: relative;
+left: 170px;
+bottom: 150px;
+}
+
+#rec1 {
+    position: relative;
+    left: 580px;
+    top: 50px;
+    background-color: lightgray;
+    color: #303030;
+    height: 20px;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    
+}
+#cercle222 img {
+  
+  height: 100%;
+  width: 100%;
+  border-radius: 80px;
+
+ 
+} 
+#cercle222 {
+    border: solid 1px black;
+    border-radius: 80px;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    left: 600px;
+    top: 60px;
+}
+#cercle222:hover {
+    border: solid 5px aqua;
+}
+#cercle222:hover #bulle2 {
+    display: block;
+}
+#cercle222:hover #ben1 {
+    color: orange;
+}
+#cercle222:hover #ben2 {
+    color: green;
+}
+#ben {
+   width: 120px;
+   
+}
+#prof_bulle2 {
+    position: relative;
+    bottom: 30px;
+    border: solid 1px black;
+    width: 300px;
+    padding: 15px;
+    font-size: 20px;
+    left: 40px;
+}
+#prof_bulle2 span {
+    position: relative;
+    left: 65px;
+}
+#ben1 {
+    position: relative;
+    left: 20px;
+}
+#ben2 {
+    position: relative;
+    left: 10px;
+}
+#bulle2 {
+    position: relative;
+    left: 200px;
+    border: solid 2px #303030;
+    width: 600px;
+    height: 170px;
+    bottom: 330px;
+    display: none;
+    border-radius: 60px;
+    background-color: aliceblue;
+   z-index: 7;
+}
+#bulle2 #nom_bulle {
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+#trait1 {
+    background-color: black;
+    width: 370px;
+    height: 2px;
+    transform: rotate(-25deg);
+    position: relative;
+    left: 220px;
+   top: 70px;    
+}
+#trait2 {
+    background-color: black;
+    width: 370px;
+    height: 2px;
+    transform: rotate(25deg);
+    position: relative;
+    left: 730px;
+    top: 70px;
+    
+}
+.ligne3  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    position: relative;
+    top: 170px;
+    left: 65px;
+}
+ 
+#cercle333 img {
+  
+  height: 100%;
+  width: 100%;
+  border-radius: 80px;
+ 
+}
+#cercle333 {
+    border: solid 1px black;
+    border-radius: 80px;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    right: 20px;
+    
+}
+#cercle333:hover {
+    border: solid 5px aqua;
+}
+#cercle333:hover #bulle3 {
+    display: block;
+}
+#cercle333:hover #steven1 {
+    color: orange;
+}
+#cercle333:hover #steven2 {
+    color: green;
+}
+#steven {
+   width: 172px;
+   position: relative;
+   right: 25px;
+}
+
+#prof_bulle3 {
+    position: relative;
+    bottom: 30px;
+    border: solid 1px black;
+    width: 260px;
+    padding: 15px;
+    font-size: 20px;
+    left: 40px;
+}
+#prof_bulle3 span {
+    position: relative;
+    left: 60px;
+}
+#steven1 {
+    position: relative;
+    left: 50px;
+}
+
+#bulle3 {
+    position: relative;
+  top: 10px;
+   border: solid 2px #303030;
+   width: 600px;
+    height: 170px;
+    right: 250px;
+    border-radius: 60px;
+    display: none;
+    background-color: aliceblue;
+z-index: 5;
+}
+#bulle3 #nom_bulle {
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+#trait3 {
+    position: relative;
+    top: 50px;
+    right: 20px;
+    background-color: black;
+    width: 120px;
+    height: 2px;
+}
+
+#cercle444 img {
+  
+  height: 100%;
+  width: 100%;
+  border-radius: 80px;
+ 
+
+ 
+} 
+#cercle444 {
+    border: solid 1px black;
+    border-radius: 80px;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    right: 20px;
+    
+}
+#cercle444:hover {
+    border: solid 5px aqua;
+}
+#cercle444:hover #bulle4 {
+    display: block;
+}
+#cercle444:hover #philippe1 {
+    color: orange;
+}
+#cercle444:hover #philippe2 {
+    color: green;
+}
+#philippe {
+   width: 172px;
+   position: relative;
+   right: 30px;
+
+}
+#prof_bulle4 {
+    position: relative;
+    bottom: 30px;
+    border: solid 1px black;
+    width: 380px;
+    padding: 15px;
+    font-size: 20px;
+   right: 10px;
+}
+#prof_bulle4 span {
+    position: relative;
+    left: 60px;
+}
+#form_img4 {
+    width: 30px;
+    height: 30px;
+    position: relative;
+   top: 7px;
+   left: 10px;
+}
+#philippe1 {
+position: relative;
+left: 50px;
+}
+
+#bulle4 {
+    position: relative;
+   right: 510px;
+   border: solid 2px #303030;
+   width: 600px;
+    height: 170px;
+    top: 10px;
+    border-radius: 60px;
+    display: none;
+    background-color: aliceblue;
+z-index: 5;
+}
+#bulle4 #nom_bulle {
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+#trait4 {
+    width: 2px;
+    height: 280px;
+    background-color: black;
+    position: relative;
+    left: 50px;
+    bottom: 60px;
+}
+#cercle555 img {
+  
+  height: 100%;
+  width: 100%;
+  border-radius: 80px;
+  
+} 
+#prof_bulle5 {
+    position: relative;
+    bottom: 30px;
+    border: solid 1px black;
+    width: 320px;
+    padding: 15px;
+    font-size: 20px;
+    left: 10px;
+}
+#prof_bulle5 span {
+    position: relative;
+    left: 65px;
+}
+#form_img5 {
+    width: 30px;
+    height: 30px;
+    position: relative;
+   top: 7px;
+   left: 20px;
+}
+#cercle555 {
+    border: solid 1px black;
+    border-radius: 80px;
+    height: 120px;
+    width: 120px;
+    
+}
+#cercle555:hover {
+    border: solid 5px aqua;
+}
+#cercle555:hover #bulle5 {
+    display: block;
+}
+#cercle555:hover #john1 {
+    color: orange;
+}
+#cercle555:hover #john2 {
+    color: green;
+}
+#john {
+   width: 172px;
+   position: relative;
+   position: relative;
+   right: 25px;
+}
+#john1 {
+    position: relative;
+    left: 60px;
+}
+#bulle5 {
+    position: relative;
+   left: 80px;
+   border: solid 2px #303030;
+   width: 600px;
+    height: 170px;
+    top: 10px;
+    display: none;
+    border-radius: 60px;
+    background-color: aliceblue;
+z-index: 7;
+}
+#bulle5 #nom_bulle {
+    margin-left: 55px;
+    margin-top: 20px;
+
+}
+#trait5 {
+    background-color: black;
+    width: 120px;
+    height: 2px;
+    position: relative;
+    top: 50px;
+    
+}
+#cercle666 img {
+  
+  height: 100%;
+  width: 100%;
+  border-radius: 80px;
+ 
+}
+#cercle666 {
+    border: solid 1px black;
+    border-radius: 80px;
+    height: 120px;
+    width: 120px;
+    
+}
+#cercle666:hover {
+    border: solid 5px aqua;
+}
+
+#cercle666:hover #bulle6 {
+    display: block;
+}
+#cercle666:hover #micka1 {
+    color: orange;
+}
+#cercle666:hover #micka2 {
+    color: green;
+}
+#micka {
+   width: 172px;
+   position: relative;
+   right: 20px;
+
+}
+#form_img6 {
+    width: 30px;
+    height: 30px;
+    position: relative;
+   top: 7px;
+   left: 5px;
+}
+#prof_bulle6 {
+    position: relative;
+    bottom: 30px;
+    border: solid 1px black;
+    width: 360px;
+    padding: 15px;
+    font-size: 20px;
+    left: 5px;
+}
+#prof_bulle6 span {
+    position: relative;
+}
+#micka1 {
+    position: relative;
+    left: 45px;
+}
+
+#bulle6 {
+    position: relative;
+   right: 180px;
+   border: solid 2px #303030;
+   width: 600px;
+    height: 170px;
+    top: 10px;
+    display: none;
+    border-radius: 60px;
+    background-color: aliceblue;
+z-index: 5;
+}
+#bulle6 #nom_bulle {
+    margin-left: 50px;
+    margin-top: 20px;
+    z-index: 7;
+
+}
+#rec2 {
+    position: relative;
+    left: 580px;
+    top: 120px;
+    background-color: lightgray;
+    color: #303030;
+    height: 20px;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+}
+#cercle777 img {
+  
+  height: 100%;
+  width: 100%;
+  border-radius: 80px;
+ 
+}
+#cercle777 {
+    border: solid 1px black;
+    border-radius: 80px;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    left: 610px;
+    top: 140px;
+    
+}
+#cercle777:hover {
+    border: solid 5px aqua;
+}
+
+#cercle777:hover #bulle7 {
+    display: block;
+}
+#cercle777:hover #rivkah1 {
+    color: orange;
+}
+#cercle777:hover #rivkah2 {
+    color: green;
+}
+#rivkah {
+   width: 315px;
+   position: relative;
+   right: 90px;
+
+}
+#form_img7 {
+    width: 30px;
+    height: 30px;
+    position: relative;
+   top: 7px;
+   left: -10px;
+}
+#prof_bulle7 {
+    position: relative;
+    bottom: 30px;
+    border: solid 1px black;
+    width: 360px;
+    padding: 15px;
+    font-size: 20px;
+    left: 5px;
+}
+#prof_bulle7 span {
+    position: relative;
+    left: 50px;
+}
+#rivkah1 {
+    position: relative;
+    left: 120px;
+}
+
+#bulle7 {
+    position: relative;
+   left: 185px;
+   border: solid 2px #303030;
+   width: 600px;
+    height: 170px;
+    bottom: 280px;
+    display: none;
+    border-radius: 60px;
+    background-color: aliceblue;
+z-index: 5;
+}
+#bulle7 #nom_bulle {
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+#trait6 {
+    background-color: black;
+    width: 200px;
+    height: 2px;
+    transform: rotate(-20deg);
+    position: relative;
+    left: 390px;
+    top: 100px;
+}
+#trait7 {
+    background-color: black;
+    width: 200px;
+    height: 2px;
+    transform: rotate(20deg);
+    position: relative;
+    left: 750px;
+    top: 100px;
+}
+.ligne5 {
+    z-index: -5;
+}
+#cercle888 img {
+  
+  height: 100%;
+  width: 100%;
+  border-radius: 80px;
+ 
+}
+#cercle888 {
+    border: solid 1px black;
+    border-radius: 80px;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    left: 300px;
+    top: 140px;
+    
+}
+#cercle888:hover {
+    border: solid 5px aqua;
+}
+
+#cercle888:hover #bulle8 {
+    display: block;
+}
+#cercle888:hover #lea1 {
+    color: orange;
+}
+#cercle888:hover #lea2 {
+    color: green;
+}
+#lea {
+   width: 190px;
+   position: relative;
+   right: 35px;
+
+}
+#form_img8 {
+    width: 30px;
+    height: 30px;
+    position: relative;
+   top: 7px;
+   left: -10px;
+}
+#prof_bulle8 {
+    position: relative;
+    bottom: 30px;
+    border: solid 1px black;
+    width: 360px;
+    padding: 15px;
+    font-size: 20px;
+    left: 5px;
+}
+#prof_bulle8 span {
+    position: relative;
+    left: 50px;
+}
+#tel_img8 {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 97px;
+    right: 10px;
+}
+#mail_img8 {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 70px;
+    right: 10px;
+}
+#mail_bulle8 {
+position: relative;
+left: 30px;
+bottom: 20px;
+}
+#mail_bulle8 a {
+    text-decoration: none;
+    color: black;
+}
+#mail_bulle8 a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+#lea1 {
+    position: relative;
+    left: 70px;
+}
+#tel_bulle8 {
+    position: relative;
+    left: 30px;
+    bottom: 7px;
+}
+#tel_bulle8 a {
+    text-decoration: none;
+    color: black;
+}
+#tel_bulle8 a:hover {
+    color: aqua;
+    text-decoration: underline;
+
+}
+#bulle8 {
+    position: relative;
+   right: 350px;
+   border: solid 2px #303030;
+   width: 600px;
+    height: 170px;
+    bottom: 405px;
+    border-radius: 60px;
+    display: none;
+    background-color: aliceblue;
+z-index: 5;
+}
+#bulle8 #nom_bulle {
+    margin-left: 60px;
+    margin-top: 20px;
+}
+#trait8 {
+    width: 2px;
+    height: 200px;
+    background-color: black;
+    position: relative;
+   left: 673px;
+    top: 70px;
+}
+#cercle999 img {
+  
+  height: 100%;
+  width: 100%;
+  border-radius: 80px;
+ 
+}
+#cercle999 {
+    border: solid 1px black;
+    border-radius: 80px;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    left: 930px;
+    bottom: 182px;
+    
+}
+#cercle999:hover {
+    border: solid 5px aqua;
+}
+
+#cercle999:hover #bulle9 {
+    display: block;
+}
+#cercle999:hover #nawel1 {
+    color: orange;
+}
+#cercle999:hover #nawel2 {
+    color: green;
+}
+#cercle999:hover #nawel3 {
+    color: green;
+}
+#nawel {
+   width: 212px;
+   position: relative;
+   right: 55px;
+
+}
+#nawel1 {
+    position: relative;
+    left: 80px;
+}
+#nawel2 {
+    position: relative;
+    left: 10px;
+    
+}
+#form_img9 {
+    width: 30px;
+    height: 30px;
+    position: relative;
+   top: 7px;
+   left: 20px;
+}
+#prof_bulle9 {
+    position: relative;
+    bottom: 30px;
+    border: solid 1px black;
+    width: 300px;
+    padding: 15px;
+    font-size: 20px;
+    left: 35px;
+}
+#prof_bulle9 span {
+    position: relative;
+    left: 50px;
+}
+#bulle9 {
+    position: relative;
+   right: 135px;
+   border: solid 2px #303030;
+   width: 600px;
+    height: 170px;
+    bottom: 425px;
+    border-radius: 60px;
+    display: none;
+    background-color: aliceblue;
+z-index: 5;
+}
+#bulle9 #nom_bulle {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#rec3 {
+    position: relative;
+    left: 590px;
+    bottom: 160px;
+    background-color: lightgray;
+    color: #303030;
+    height: 20px;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+}
+#trait9 {
+    background-color: black;
+    width: 200px;
+    height: 2px;
+    transform: rotate(-25deg);
+    position: relative;
+    bottom: 90px;
+    left: 375px;
+}
+#cercle1000 img {
+  
+  height: 100%;
+  width: 100%;
+  border-radius: 80px;
+ 
+}
+#cercle1000 {
+    border: solid 1px black;
+    border-radius: 80px;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    left: 300px;
+    top: 90px;
+    
+}
+#cercle1000:hover {
+    border: solid 5px aqua;
+}
+
+#cercle1000:hover #bulle10 {
+    display: block;
+}
+#cercle1000:hover #kamel1 {
+    color: orange;
+}
+#cercle1000:hover #kamel2 {
+    color: green;
+}
+#kamel {
+   width:82px;
+   position: relative;
+   left: 20px;
+
+}
+#form_img10 {
+    width: 30px;
+    height: 30px;
+    position: relative;
+   top: 7px;
+   left: 20px;
+}
+#prof_bulle10 {
+    position: relative;
+    bottom: 30px;
+    border: solid 1px black;
+    width: 300px;
+    padding: 15px;
+    font-size: 20px;
+    left: 35px;
+}
+#prof_bulle10 span {
+    position: relative;
+    left: 50px;
+}
+#kamel1 {
+    position: relative;
+   left: 8px;
+}
+#bulle10 {
+    position: relative;
+   right: 480px;
+   border: solid 2px #303030;
+   width: 600px;
+    height: 170px;
+    bottom: 365px;
+    border-radius: 60px;
+    display: none;
+    background-color: aliceblue;
+    z-index: 9;
+}
+#bulle10 #nom_bulle {
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+#trait10 {
+    background-color: black;
+    width: 200px;
+    height: 2px;
+    transform: rotate(25deg);
+    position: relative;
+    left: 770px;
+    bottom: 135px;
+}
+#cercle1111 img {
+  
+  height: 100%;
+  width: 100%;
+  border-radius: 80px;
+ 
+}
+#cercle1111 {
+    border: solid 1px black;
+    border-radius: 80px;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    left: 930px;
+    bottom: 82px;
+    
+}
+#cercle1111:hover {
+    border: solid 5px aqua;
+}
+
+#cercle1111:hover #bulle11 {
+    display: block;
+}
+#cercle1111:hover #stephane1 {
+    color: orange;
+}
+#cercle1111:hover #stephane2 {
+    color: green;
+}
+#form_img11 {
+    width: 30px;
+    height: 30px;
+    position: relative;
+   top: 7px;
+   left: 20px;
+}
+#prof_bulle11 {
+    position: relative;
+    bottom: 30px;
+    border: solid 1px black;
+    width: 300px;
+    padding: 15px;
+    font-size: 20px;
+    left: 35px;
+}
+#prof_bulle11 span {
+    position: relative;
+    left: 50px;
+}
+#stephane {
+   width: 184px;
+   position: relative;
+   right: 30px;
+
+}
+#stephane1 {
+    position: relative;
+    left: 50px;
+}
+#bulle11 {
+    position: relative;
+   right: 15px;
+   border: solid 2px #303030;
+   width: 600px;
+    height: 170px;
+    bottom: 360px;
+    border-radius: 60px;
+    display: none;
+    background-color: aliceblue;
+z-index: 5;
+}
+#bulle11 #nom_bulle {
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+#trait11 {
+    width: 2px;
+    height: 200px;
+    background-color: black;
+    position: relative;
+    left: 673px;
+    bottom: 265px;
+    
+}
+#rec4 {
+    position: relative;
+    bottom: 12px;
+    background-color: lightgray;
+    color: #303030;
+    height: 20px;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    left: 590px;
+    bottom: 250px;
+}
+#cercle1222 img {
+  
+  height: 100%;
+  width: 100%;
+  border-radius: 80px;
+ 
+}
+#cercle1222 {
+    border: solid 1px black;
+    border-radius: 80px;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    left: 610px;
+    bottom: 230px;
+    
+}
+#cercle1222:hover {
+    border: solid 2px aqua;
+}
+
+#cercle1222:hover #bulle12 {
+    display: block;
+}
+#cercle1222:hover #david1 {
+    color: orange;
+}
+#cercle1222:hover #david2 {
+    color: green;
+}
+
+#david {
+   width: 94px;
+   position: relative;
+   left: 15px;
+
+}
+#form_img12 {
+    width: 30px;
+    height: 30px;
+    position: relative;
+   top: 7px;
+   left: 35px;
+}
+#prof_bulle12 {
+    position: relative;
+    bottom: 30px;
+    border: solid 1px black;
+    width: 200px;
+    padding: 15px;
+    font-size: 20px;
+    left: 50px;
+}
+#prof_bulle12 span {
+    position: relative;
+    left: 50px;
+}
+#david1 {
+    position: relative;
+    left: 18px;
+}
+#bulle12 {
+    position: relative;
+   left: 170px;
+   border: solid 2px #303030;
+   width: 600px;
+    height: 170px;
+    bottom: 170px;
+    display: none;
+    border-radius: 60px;
+    background-color: aliceblue;
+z-index: 5;
+}
+#bulle12 #nom_bulle {
+    margin-left: 55px;
+    margin-top: 20px;
+
+}
+#text {
+    position: relative;
+    left: 20px;
+    bottom: 550px;
+    background-color: lightgray;
+    padding: 10px;
+    border: solid 1px black;
+    z-index: 2;
+    width: 500px;
+    color: #303030;
+    font-size: 20px;
+}
+.bubble-text{
+    color:#303030; 
+    border-radius:3px;
+    padding-left: 15px;
+    left: 30px;
+    bottom: 520px;
+    width: 380px;
+    position: relative;
+    border: solid 4px aqua;
+}
+
+
+
+.bubble-text2{
+    color:#303030; 
+    padding-left: 15px;
+    padding-right: 10px;
+    bottom: 747px;
+border-radius:3px;
+    
+left: 510px;
+    position: relative;
+    border: solid 4px 	#FF1493;
+    width: 380px;
+}
+.bubble-text2 span {
+    width: 100%;
+}
+.bubble-text3{
+    color:#303030; 
+    padding-left: 15px;
+    padding-right: 10px;
+    bottom: 971px;
+border-radius:3px;
+    left: 1000px;
+    position: relative;
+    border: solid 4px 	#00ff66;
+    width: 380px;
+}
+.bubble-text3 span {
+    width: 100%;
+}
+.les_imgs {
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    position: relative;
+    bottom:900px;
+    
+    border-radius: 5px;
+    padding: 5px;
+    white-space: 1px;
+
+}
+.les_imgs img {
+    width: 100%;
+    height: 100%;
+}
+.les_imgs div {
+    width: 110px;
+    height: 110px;
+}
+
+#trait_fin {
+    position: relative;
+    bottom: 1140px;
+    width: 100%;
+    background-color: black;
+    height: 1px;
+}
+
+
+
+
+
+   </style>
+
+</head>
+<body>
+    <section class="menu">
+
+        <div id="logo"> <a href="index.html"><img src="images/logo_iso.jpg" alt=""></a> </div> 
+
+        <div id="btn_testez"><a href="contact.html">Testez mon éligibilité</a> </div>
+
+
+        <div id="telephone">
+            <div id="logo_tel"> <img src="images/logo_telephone.jpeg" alt=""> </div>
+            <div id="btn_tel" ><a href="tel:06 87 49 65 93">06 87 49 65 93</a> </div>
+        </div>
+
+        <div id="contenaire">
+
+            <div id="les_7btn">
+    
+                <div id="titre_accueil" class="btn"><a href="index.html"><span>Accueil</span> </a></div>
+    
+                <br>
+    
+                <div id="titre_qui" class="btn"><span>Qui sommes-nous ?</span> 
+                    <div id="sous_qui" class="sous"> <a href="orga.html">Organigramme de la société</a> </div>
+                </div>
+    
+                <br>
+    
+                <div id="titre_metiers" class="btn"><span>Métiers</span> 
+                    <div id="sous_metiers" class="sous">
+                        <div id="les_metiers">
+                            <div class="metiers"><a href="ite.html">Isolation thermique des murs par l'extérieur</a></div>
+                            <div class="metiers"><a href="iti.html">Isolation thermique des murs par l'interieur</a></div>
+                            <div class="metiers"><a href="pac.html">Pompes à Chaleur</a></div>
+                            <div class="metiers"><a href="vmc.html">Vmc double flux</a></div>
+                            <div class="metiers"><a href="cag.html">Chaudière à granule</a></div>
+                            <div class="metiers"><a href="soufl.html">Isolation des combles par soufflage</a></div>
+                            <div class="metiers"><a href="sol.html">Isolation des combles en deroulé au sol</a></div>
+                            <div class="metiers"><a href="toit.html">Isolation des combles en rampant de toiture</a></div>
+                            <div class="metiers"><a href="couv.html">Couverture - Toiture</a></div>
+                            <div class="metiers"><a href="menuiserie.html">Menuiserie</a></div>
+                        </div>
+                    </div>
+                </div>
+    
+                <br>
+    
+                <div id="titre_part" class="btn"><a href="partenaire.html"><span>Partenaires</span> </a></div>
+    
+                <br>
+    
+                <div id="titre_cert" class="btn"><span>Certifications</span> 
+                    <div id="sous_cert" class="sous">
+                        <div class="cert"><a href="rge.html">Rge</a></div>
+                        <div class="cert"><a href="decennale.html">Décennale</a></div>
+                    </div>
+                </div>
+    
+                <br>
+    
+                <div id="titre_rea" class="btn"> <span>Réalisation</span> 
+                    <div id="sous_rea" class="sous">
+                        <div id="les_rea">
+                            <div class="rea"><a href="image_ite.html">Isolation thermique des murs par l'extérieur</a></div>
+                            <div class="rea"><a href="image_iti.html">Isolation thermique des murs par l'interieur</a></div>
+                            <div class="rea"><a href="image_pac.html">Pompes à Chaleur</a></div>
+                            <div class="rea"><a href="image_vmc.html">Vmc double flux</a></div>
+                            <div class="rea"><a href="image_cag.html">Chaudière à granule</a></div>
+                            <div class="rea"><a href="image_soufl.html">Isolation des combles par soufflage</a></div>
+                            <div class="rea"><a href="image_sol.html">Isolation des combles en deroulé au sol</a></div>
+                            <div class="rea"><a href="image_toit.html">Isolation des combles en rampant de toiture</a></div>
+                            <div class="rea"><a href="image_couv.html">Couverture - Toiture</a></div>
+                            <div class="rea"><a href="image_menuiserie.html">Menuiserie</a></div>
+                        </div>
+                    </div>
+                </div>
+    
+                <br>
+    
+                <div id="titre_contact" class="btn"><a href="contact.html"><span>Contact</span> </a></div>
+    
+            </div>
+        
+            <div id="les_7ellipses">
+                <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+                <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+                <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+                <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+                <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+                <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+                <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+            </div>
+    
+            <div id="titre_reseaux">Retrouvez-nous sur :</div>
+    
+            <div id="les_reseaux">
+                <div class="reseaux"> <a href="https://www.facebook.com/isotopfrance.fr"> <img src="images/fb_footer.jpeg" alt="FB"> </a> </div>
+                <div class="reseaux"> <a href="https://www.linkedin.com/company/isotop-france/mycompany/?viewAsMember=true"> <img src="images/snap.jpeg" alt="snap"> </a> </div>
+                <div class="reseaux"> <a href="https://www.linkedin.com/company/isotop-france/mycompany/?viewAsMember=true"> <img src="images/twitter.jpeg" alt="Twitter"> </a> </div>
+                <div class="reseaux"> <a href="https://www.instagram.com/isotop_france/?igshid=18crjsw3tgrlc"> <img src="images/insta_footer.jpeg" alt="Insta"> </a> </div>
+                <div class="reseaux"> <a href="https://www.linkedin.com/company/isotop-france/mycompany/?viewAsMember=true"> <img src="images/lkd_footer.jpeg" alt="Linkedin"> </a> </div>
+            </div>
+    
+    
+           
+    
+            <div id="les_liens">
+                <div id="img_tetris"> <a href="decennale.html"><img src="images/tetris.jpg" alt=""></a> </div>
+               <div id="numero_tetris">N° SV75018041T07762</div>
+               <div id="img_rge"> <a href="rge.html"><img src="images/rge.jpeg" alt=""></a> </div>
+               <div id="text_rge">E-E166224</div>
+               </div>
+    
+               </div>
+            
+        </section> 
+
+        
+       
+    <section class="les_c">
+      
+  <div id="cercle111">  <img  src="images/avatar_laurent.jpeg" alt="laurent">
+  <div id="laurent"><span id="l1"> Laurent Marciano</span> <br><span id="l2"> Directeur Général </span></div>
+  <div id="bulle1">
+      <div id="cercleb1"> <img class="cercleb2" src="images/img_laurent.jpg" alt="laurent"></div>
+      <div id="text_bulle">
+          <div id="tel_img"> <img id="tel_img" src="images/tel.jpeg" alt=""></div>
+          <div id="mail_img"> <img id="mail_img" src="images/mail.jpeg" alt=""></div>
+          <div id="form_img"> <img id="form_img" src="images/form.jpeg" alt=""></div>
+
+
+      <div id="prof_bulle"><span> Génie climatique</span></div>
+      <div id="mail_bulle"><a href="mailto:laurentmarciano@isotopfrance.fr"> laurentmarciano@isotopfrance.fr</a></div>
+      <div id="tel_bulle"><a href="tel:01 47 99 88 86">06 87 49 65 93</a></div>
+      </div>
+  </div>
+</div>
+  <div id="rec1">Pôle commercial</div>
+     
+       
+  <div id="cercle222">  <img  src="images/avatar_ben.jpeg" alt="cer"> 
+  <div id="ben"><span id="ben1">Benjamin.M</span> <br><span id="ben2"> Lead Manager </span></div>
+  <div id="bulle2">
+    <div id="cercleb1"> <img id="cercleb2" src="images/img_ben.jpg" alt="laurent"></div>
+      <div id="text_bulle">
+        <div id="tel_img"> <img id="tel_img" src="images/tel.jpeg" alt=""></div>
+        <div id="mail_img"> <img id="mail_img" src="images/mail.jpeg" alt=""></div>
+        <div id="form_img"> <img id="form_img" src="images/form.jpeg" alt=""></div>
+      <div id="prof_bulle2"><span> DESS marketing digital </span></div>
+      <div id="mail_bulle"><a href="mailto:service.marketing@isotopfrance.fr"> service.marketing@isotopfrance.fr</a></div>
+      <div id="tel_bulle"><a href="tel:07 83 75 25 87">07 83 75 25 87</a></div>
+      </div>
+</div>
+</div>
+  <div id="trait1"></div>
+  <div id="trait2"></div>
+       
+       <div class="ligne3">
+  <div id="cercle333">  <img  src="images/avatar_steven.jpeg" alt="cer">
+  <div id="steven"><span id="steven1"> Steven.A </span> <br> <span id="steven2">Technico-Commercial</span></div>
+  <div id="bulle3">
+    <div id="cercleb1"> <img id="cercleb1" src="images/img_steven.jpg" alt="laurent"></div>
+      <div id="text_bulle">
+        <div id="tel_img"> <img id="tel_img" src="images/tel.jpeg" alt=""></div>
+        <div id="mail_img"> <img id="mail_img" src="images/mail.jpeg" alt=""></div>
+        <div id="form_img"> <img id="form_img" src="images/form.jpeg" alt=""></div>
+        <div id="prof_bulle3"><span> Agent de maitrise </span></div>
+        <div id="mail_bulle"><a href="mailto:steven.a@isotopfrance.fr"> steven.a@isotopfrance.fr</a></div>
+      <div id="tel_bulle"><a href="tel:06 43 81 93 89">06 43 81 93 89</a></div>
+        
+      </div>
+</div>
+</div>
+  <div id="trait3"></div>
+  <div id="cercle444">  <img  src="images/avatar_philipe.jpeg" alt="cer"> 
+  <div id="philippe"><span id="philippe1">Philippe.M</span>  <br><span id="philippe2">Technico-Commercial</span></div>
+  <div id="bulle4">
+    <div id="cercleb1"> <img id="cercleb1" src="images/img_philippe.jpg" alt="laurent"></div>
+
+    <div id="text_bulle">
+        <div id="tel_img"> <img id="tel_img" src="images/tel.jpeg" alt=""></div>
+          <div id="mail_img"> <img id="mail_img" src="images/mail.jpeg" alt=""></div>
+          <div id="form_img4"> <img id="form_img4" src="images/form.jpeg" alt=""></div>
+        <div id="prof_bulle4"><span> Agent de maitrise bouygues fibre </span></div>
+        <div id="mail_bulle"><a href="philippe.m@isotopfrance.fr"> philippe.m@isotopfrance.fr</a></div>
+        <div id="tel_bulle"><a href="tel:06 86 45 06 86">06 86 45 06 86</a></div>
+       
+    </div>
+</div>
+</div>
+  <div id="trait4"></div>
+  <div id="cercle555">  <img  src="images/avatar_john.jpeg" alt="cer">
+  <div id="john"><span id="john1"> John.D </span> <br> <span id="john2">Technico-Commercial </span></div>
+  <div id="bulle5">
+    <div id="cercleb1"> <img id="cercleb1" src="images/img_john.jpg" alt="laurent"></div>
+
+    <div id="text_bulle">
+        <div id="tel_img"> <img id="tel_img" src="images/tel.jpeg" alt=""></div>
+          <div id="mail_img"> <img id="mail_img" src="images/mail.jpeg" alt=""></div>
+          <div id="form_img5"> <img id="form_img5" src="images/form.jpeg" alt=""></div>
+        <div id="prof_bulle5"><span> Contremaitre chez Alstom </span></div>
+        <div id="mail_bulle"><a href="jk.isolation@gmail.com">jk.isolation@gmail.com</a></div>
+        <div id="tel_bulle"><a href="tel:06 32 44 59 21">06 32 44 59 21</a></div>
+    </div>
+</div>
+</div>
+  <div id="trait5"></div>
+  <div id="cercle666"> <img  src="images/avatar_micka.jpeg" alt="cer">
+  <div id="micka"><span id="micka1"> Mickael.L</span> <br><span id="micka2">Technico-Commercial</span></div>
+  <div id="bulle6">
+    <div id="cercleb1"> <img id="cercleb1" src="images/img_micka.jpg" alt="laurent"></div>
+
+      <div id="text_bulle">
+        <div id="tel_img"> <img id="tel_img" src="images/tel.jpeg" alt=""></div>
+        <div id="mail_img"> <img id="mail_img" src="images/mail.jpeg" alt=""></div>
+        <div id="form_img6"> <img id="form_img" src="images/form.jpeg" alt=""></div>
+        <div id="prof_bulle6"><span> Chef de rang groupe Costes </span></div>
+        <div id="mail_bulle"><a href="contact@isotopfrance.fr"> contact@isotopfrance.fr</a></div>
+        <div id="tel_bulle"><a href="tel:06 43 81 93 89">06 69 25 59 07</a></div>
+      </div>
+</div>
+</div>
+  </div>
+   
+        <div id="rec2">Pôle Administratif</div>
+        <div id="cercle777"> <img  src="images/avatar_rivkah.jpeg" alt="laurent">
+        <div id="rivkah"><span id="rivkah1"> Rivkah.H</span> <br><span id="rivkah2">Responsable administrative et financière</span></div>
+        <div id="bulle7">
+            <div id="cercleb1"> <img id="cercleb1" src="images/avatar_laurent.jpeg" alt="laurent"></div>
+
+      <div id="text_bulle">
+        <div id="tel_img"> <img id="tel_img" src="images/tel.jpeg" alt=""></div>
+        <div id="mail_img"> <img id="mail_img" src="images/mail.jpeg" alt=""></div>
+        <div id="form_img7"> <img id="form_img" src="images/form.jpeg" alt=""></div>
+        <div id="prof_bulle7"><span> Master administration entreprise </span></div>
+        <div id="mail_bulle"><a href="contact@isotopfrance.fr"> contact@isotopfrance.fr</a></div>
+        <div id="tel_bulle"><a href="tel:01 47 99 88 86">01 47 99 88 86</a></div>
+      </div>
+        </div>
+    </div>
+        <div id="trait6"></div>
+        <div id="trait7"></div>
+    
+    <div class="ligne5">
+        <div id="cercle888">  <img  src="images/avatar_lea.jpeg" alt="laurent"> 
+        <div id="lea"> <span id="lea1"> Léa.M </span><br><span id="lea2"> secrétaire administrative </span></div>
+        <div id="bulle8">
+            <div id="cercleb1"> <img id="cercleb1" src="images/img_lea.jpg" alt="laurent"></div>
+
+      <div id="text_bulle">
+        <div id="tel_img8"> <img id="tel_img" src="images/tel.jpeg" alt=""></div>
+        <div id="mail_img8"> <img id="mail_img" src="images/mail.jpeg" alt=""></div>
+        <div id="form_img8"> <img id="form_img" src="images/form.jpeg" alt=""></div>
+        <div id="prof_bulle8"> <span>Master administration et gestion ressources humaine </span></div>
+        <div id="mail_bulle8"><a href="lea@isotopfrance.fr"> lea@isotopfrance.fr</a></div>
+        <div id="tel_bulle8"><a href="tel:06 34 87 34 30">06 34 87 34 30</a></div>
+        
+      </div>
+        </div>
+    </div>
+        <div id="trait8"></div>
+        <div id="cercle999">  <img  src="images/avatar_nawel.jpeg" alt="laurent"> 
+        <div id="nawel"> <span id="nawel1"> Nawel.N  </span> <br> <span id="nawel2"> Chargée de valorisation </span><br> <span id="nawel3"> des aides de soutien digital </span></div>
+        <div id="bulle9">
+            <div id="cercleb1"> <img id="cercleb1" src="images/img_nawel.jpg" alt="laurent"></div>
+
+      <div id="text_bulle">
+        <div id="tel_img"> <img id="tel_img" src="images/tel.jpeg" alt=""></div>
+        <div id="mail_img"> <img id="mail_img" src="images/mail.jpeg" alt=""></div>
+        <div id="form_img9"> <img id="form_img" src="images/form.jpeg" alt=""></div>
+        <div id="prof_bulle9"> <span> communication digitale </span></div>
+        <div id="mail_bulle"><a href="nawel.n@isotopfrance.fr"> nawel.n@isotopfrance.fr</a></div>
+        <div id="tel_bulle"><a href="tel:07 84 92 12 08">07 84 92 12 08</a></div>
+        
+      </div>
+        </div>
+    </div>
+    </div>
+    <div class="ligne6">
+        <div id="cercle1000">  <img  src="images/avatar_kamel.jpeg" alt="laurent">
+        <div id="kamel"><span id="kamel1"> Kamel.N </span><br><span id="kamel2">Contrôleur</span></div>
+        <div id="bulle10">
+            <div id="cercleb1"> <img id="cercleb1" src="images/img_kamel.jpg" alt="laurent"></div>
+
+      <div id="text_bulle">
+        <div id="tel_img"> <img id="tel_img" src="images/tel.jpeg" alt=""></div>
+        <div id="mail_img"> <img id="mail_img" src="images/mail.jpeg" alt=""></div>
+        <div id="form_img10"> <img id="form_img" src="images/form.jpeg" alt=""></div>
+        <div id="prof_bulle10"><span> Agent de control Cofrac </span></div>
+        <div id="mail_bulle"><a href="controle@isotopfrance.fr"> controle@isotopfrance.fr</a></div>
+        <div id="tel_bulle"><a href="tel:07 51 32 52 13">07 51 32 52 13</a></div>
+      </div>
+        </div>
+    </div>
+        <div id="trait9"></div>
+        <div id="rec3">Pôle Technique</div>
+        <div id="trait10"></div>
+        <div id="cercle1111">   <img  src="images/avatar_stephane.jpeg" alt="laurent">
+        <div id="stephane"><span id="stephane1"> Stephane.B </span><br><span id="stephane2"> Conducteur de travaux </span></div>
+        <div id="bulle11">
+            <div id="cercleb1"> <img id="cercleb1" src="images/img_stephane.jpg" alt="laurent"></div>
+
+      <div id="text_bulle">
+        <div id="tel_img"> <img id="tel_img" src="images/tel.jpeg" alt=""></div>
+        <div id="mail_img"> <img id="mail_img" src="images/mail.jpeg" alt=""></div>
+        <div id="form_img11"> <img id="form_img" src="images/form.jpeg" alt=""></div>
+        <div id="prof_bulle11"><span> Ingenieur génie civil - ABF </span></div>
+        <div id="mail_bulle"><a href="poseite50@gmail.com"> poseite50@gmail.com</a></div>
+        <div id="tel_bulle"><a href="tel:06 62 66 46 04">06 62 66 46 04</a></div>
+      </div>
+        </div>
+    </div>
+    </div>
+    <div class="ligne7">
+        <div id="trait11"></div>
+        <div id="rec4">Pôle Marketing</div>
+        <div id="cercle1222">  <img  src="images/avatar_david.jpeg" alt="laurent">
+        <div id="david"><span id="david1"> David.B </span><br><span id="david2"> Web Master</span></div>
+        <div id="bulle12">
+            <div id="cercleb1"> <img id="cercleb1" src="images/img_david.jpg" alt="laurent"></div>
+
+      <div id="text_bulle">
+        <div id="tel_img"> <img id="tel_img" src="images/tel.jpeg" alt=""></div>
+        <div id="mail_img"> <img id="mail_img" src="images/mail.jpeg" alt=""></div>
+        <div id="form_img12"> <img id="form_img" src="images/form.jpeg" alt=""></div>
+        <div id="prof_bulle12"><span> Bachelor web </span></div>
+         <div id="mail_bulle"><a href="service.marketing@isotopfrance.fr"> service.marketing@isotopfrance.fr</a></div>
+        <div id="tel_bulle"><a href="tel:07 84 92 12 08">07 81 94 60 85</a></div>
+        </div>
+    </div>
+
+    </div>
+    
+</section>
+
+         <section id="text">
+             L'entreprise ISOTOP est spécialisée dans la rénovation des parcs résidentiels et tertiaires afin d'améliorer leurs 
+             performances énérgetiques. <br> <br>
+             Présentes sur le territoire national pour satisfaire vos besoins en économie d'énérgie, nos équipes vous apportent 
+             les conseils adaptés afin de réaliser au mieux vos travaux. <br> <br>
+             Depuis plusieurs années, ISOTOP se developpe sur le marché des certificats d'économies d'energies (CEE).
+         </section>
+
+         
+         
+            <div class="bubble-text">
+                <p>
+            <h1>Isotop France </h1> 
+            34 rue Camille Pelletan, 92300 Levallois Perret <br>
+            Administrarif : <a href="tel:01 47 99 88 86">01 47 99 88 86</a> <br>
+            Permanence : <a href="tel:06 87 49 65 93">06 87 49 65 93</a> <br>
+            Mail : <a href="mailto:contact@isotopfrance.fr">contact@isotopfrance.fr</a> <br>
+            RGE Qualibat : E166224 <br>
+            RC-Décénale-Pro : N° SV75018041T07762
+        </p>
+          </div>
+          
+
+
+         
+          
+            <div class="bubble-text2">
+                <p>
+                    <h1>Isotop Centre-Est </h1> 
+                   <span> 70 avenue des Bruyères, 69150 Décines Charpieu </span><br>
+                    Administrarif : <a href="tel:04 86 68 92 92">04 86 68 92 92</a> <br>
+                    Permanence : <a href="tel:06 21 81 82 00">06 21 81 82 00</a> <br>
+                    Mail : <a href="mailto:info@isotopcentreest.fr">info@isotopcentreest.fr</a> <br>
+                    RGE Qualibat : E178717 <br>
+                    RC-Décénale-Pro : N° SV75018041T03242
+                
+                </p>
+         
+          </div>
+          <div class="bubble-text3">
+            <p>
+                <h1>Isotop Grand-Est </h1> 
+               <span> 2 rue de flacourt, 54120 Gelcourt </span><br>
+                Administrarif : <a href="tel:06 09 93 98 69">06 09 93 98 69</a> <br>
+                Permanence : <a href="tel:06 32 44 59 21">06 32 44 59 21</a> <br>
+                Mail : <a href="mailto:jk.isolation@gmail.com">jk.isolation@gmail.com</a> <br>
+                RGE Qualibat : E166224  <br>
+                RC-Décénale-Pro : N° SV75018041T07762
+            
+            </p>
+      </div>
+        
+          
+          <section class="les_imgs">
+            <div> <img src="images/rge_part.jpg" alt=""></div>
+            <div> <img src="images/cee.jpeg" alt=""></div>
+            <div> <img src="images/maprime.jpg" alt=""></div>
+            <div> <img src="images/cetelem.jpeg" alt=""></div>
+            <div> <img src="images/cofidis.jpeg" alt=""></div>
+            <div> <img src="images/ministere.jpg" alt=""></div>
+            <div> <img src="images/isover.jpeg" alt=""></div>
+            <div> <img src="images/actis.jpeg" alt=""></div>
+            <div> <img src="images/volcalis.jpeg" alt=""></div>
+            <div> <img src="images/polyprod.jpeg" alt=""></div>
+            <div> <img src="images/placo.jpeg" alt=""></div>
+            <div> <img src="images/acermi.jpeg" alt=""></div>
+            <div> <img src="images/klygroupe.jpeg" alt=""></div>
+            <div> <img src="images/igloo.jpeg" alt=""></div>
+            <div> <img src="images/rockwool.jpeg" alt=""></div>
+            <div> <img src="images/ursa.jpeg" alt=""></div>
+            <div> <img src="images/siniat.jpeg" alt=""></div>
+            <div> <img src="images/knauf.jpeg" alt=""></div>
+        
+        </section>
+        <div id="trait_fin"></div>
+        
+</body>
+</html>

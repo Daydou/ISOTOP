@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isotopfrance</title>
+    <link href="menu.css" rel="stylesheet">
+
+    
+    <style>
+
+#les_liens {
+    position: relative;
+    left: 30px;
+}
+#titre {
+        position: relative; 
+        bottom: 610px;
+        left: 480px;
+        color: #303030;
+        text-decoration: none;
+        text-underline-offset: 0.2em;   
+        font-size: 2em;  
+        display: inline-block;
+     }
+     #titre:after { 
+         content: ''; 
+     width: 100%; 
+     position: absolute; 
+     left: 0; 
+     bottom: 1px; 
+     border-width: 0 0 1px; 
+     border-style: solid;
+     }
+
+     .globale {
+        position: relative;
+        width: 700px;
+        height: 1050px;
+        left: 400px;
+        bottom: 550px;
+        background: linear-gradient(to right, gainsboro,gainsboro, gainsboro);
+        border: solid 1px black;border-radius: 5px;
+        padding: 10px;
+        text-align: justify;
+        z-index: -1;
+        color: #303030;
+    }
+    #text_globale {
+        display: inline-block;
+        position: relative;
+        bottom: 230px;
+    }
+    #btn_rea_ite {
+     text-decoration: none;
+    color: lightgray;
+    
+    position: absolute;
+    top: 165px;
+    left: 650px;
+}
+
+
+#btn_rea_ite a {
+    display: inline-block;
+    text-decoration: none;
+    color: lightgray;
+    background: linear-gradient(to right, green, #303030, darkorange);
+    font-size: medium;
+    border: solid 3px  gray;
+    padding: 10px;
+    -webkit-animation-name: clignote;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-iteration-count:infinite; 
+    
+}
+.bubble-text{
+    color:#303030; 
+    border-radius:3px;
+    padding-left: 15px;
+    left: 30px;
+    bottom: 480px;
+    width: 380px;
+    position: relative;
+    border: solid 4px aqua;
+}
+
+
+
+.bubble-text2{
+    color:#303030; 
+    padding-left: 15px;
+    padding-right: 10px;
+    
+border-radius:3px;
+    bottom:  707px;
+    left: 510px;
+    position: relative;
+    border: solid 4px 	#FF1493;
+    width: 380px;
+}
+.bubble-text2 span {
+    width: 100%;
+}
+.bubble-text3{
+    color:#303030; 
+    padding-left: 15px;
+    padding-right: 10px;
+    bottom: 931px;
+border-radius:3px;
+    left: 1000px;
+    position: relative;
+    border: solid 4px 	#00ff66;
+    width: 380px;
+}
+.bubble-text3 span {
+    width: 100%;
+}
+.les_img {
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    position: relative;
+    bottom:860px;
+    
+    border-radius: 5px;
+    padding: 5px;
+    white-space: 1px;
+
+}
+.les_img img {
+    width: 100%;
+    height: 100%;
+}
+.les_img div {
+    width: 110px;
+    height: 110px;
+}
+#img_ite {
+    width: 340px;
+    height: 300px;
+    position: relative;
+    bottom: 2170px;
+    left: 1100px;
+    z-index: -2;
+}
+#img_ite img {
+    width: 100%;
+    height: 100%;
+}
+
+#img_ite2 {
+    width: 330px;
+    height: 200px;
+    position: relative;
+    left: 1100px;
+    bottom: 2710px;
+    z-index: -2;
+}
+#img_ite2 img {
+    width: 100%;
+    height: 100%;
+}
+#trait_fin {
+    position: relative;
+    bottom: 1600px;
+    width: 100%;
+    background-color: black;
+    height: 1px;
+}
+
+
+   </style>
+
+</head>
+<body>
+
+
+    <section class="menu">
+
+        <div id="logo"> <a href="index.html"><img src="images/logo_iso.jpg" alt=""></a> </div> 
+        
+        <div id="btn_testez"><a href="contact.html">Testez mon éligibilité</a> </div>
+
+
+        <div id="telephone">
+            <div id="logo_tel"> <img src="images/logo_telephone.jpeg" alt=""> </div>
+            <div id="btn_tel" ><a href="tel:06 87 49 65 93">06 87 49 65 93</a> </div>
+        </div>
+
+        <div id="contenaire">
+        <div id="les_7btn">
+
+            <div id="titre_accueil" class="btn"><a href="index.html"><span>Accueil</span> </a></div>
+
+            <br>
+
+            <div id="titre_qui" class="btn"><span>Qui sommes-nous ?</span> 
+                <div id="sous_qui" class="sous"> <a href="orga.html">Organigramme de la société</a> </div>
+            </div>
+
+            <br>
+
+            <div id="titre_metiers" class="btn"><span>Métiers</span> 
+                <div id="sous_metiers" class="sous">
+                    <div id="les_metiers">
+                        <div class="metiers"><a href="ite.html">Isolation thermique des murs par l'extérieur</a></div>
+                        <div class="metiers"><a href="iti.html">Isolation thermique des murs par l'interieur</a></div>
+                        <div class="metiers"><a href="pac.html">Pompes à Chaleur</a></div>
+                        <div class="metiers"><a href="vmc.html">Vmc double flux</a></div>
+                        <div class="metiers"><a href="cag.html">Chaudière à granule</a></div>
+                        <div class="metiers"><a href="soufl.html">Isolation des combles par soufflage</a></div>
+                        <div class="metiers"><a href="sol.html">Isolation des combles en deroulé au sol</a></div>
+                        <div class="metiers"><a href="toit.html">Isolation des combles en rampant de toiture</a></div>
+                        <div class="metiers"><a href="couv.html">Couverture - Toiture</a></div>
+                        <div class="metiers"><a href="menuiserie.html">Menuiserie</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div id="titre_part" class="btn"><a href="partenaire.html"><span>Partenaires</span> </a></div>
+
+            <br>
+
+            <div id="titre_cert" class="btn"><span>Certifications</span> 
+                <div id="sous_cert" class="sous">
+                    <div class="cert"><a href="rge.html">Rge</a></div>
+                    <div class="cert"><a href="decennale.html">Décennale</a></div>
+                </div>
+            </div>
+
+            <br>
+
+            <div id="titre_rea" class="btn"> <span>Réalisation</span> 
+                <div id="sous_rea" class="sous">
+                    <div id="les_rea">
+                        <div class="rea"><a href="image_ite.html">Isolation thermique des murs par l'extérieur</a></div>
+                        <div class="rea"><a href="image_iti.html">Isolation thermique des murs par l'interieur</a></div>
+                        <div class="rea"><a href="image_pac.html">Pompes à Chaleur</a></div>
+                        <div class="rea"><a href="image_vmc.html">Vmc double flux</a></div>
+                        <div class="rea"><a href="image_cag.html">Chaudière à granule</a></div>
+                        <div class="rea"><a href="image_soufl.html">Isolation des combles par soufflage</a></div>
+                        <div class="rea"><a href="image_sol.html">Isolation des combles en deroulé au sol</a></div>
+                        <div class="rea"><a href="image_toit.html">Isolation des combles en rampant de toiture</a></div>
+                        <div class="rea"><a href="image_couv.html">Couverture - Toiture</a></div>
+                        <div class="rea"><a href="image_menuiserie.html">Menuiserie</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div id="titre_contact" class="btn"><a href="contact.html"><span>Contact</span> </a></div>
+
+        </div>
+    
+        <div id="les_7ellipses">
+            <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+            <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+            <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+            <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+            <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+            <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+            <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+        </div>
+
+        <div id="titre_reseaux">Retrouvez-nous sur :</div>
+
+        <div id="les_reseaux">
+            <div class="reseaux"> <a href="https://www.facebook.com/isotopfrance.fr"> <img src="images/fb_footer.jpeg" alt="FB"> </a> </div>
+            <div class="reseaux"> <a href="https://www.linkedin.com/company/isotop-france/mycompany/?viewAsMember=true"> <img src="images/snap.jpeg" alt="snap"> </a> </div>
+            <div class="reseaux"> <a href="https://www.linkedin.com/company/isotop-france/mycompany/?viewAsMember=true"> <img src="images/twitter.jpeg" alt="Twitter"> </a> </div>
+            <div class="reseaux"> <a href="https://www.instagram.com/isotop_france/?igshid=18crjsw3tgrlc"> <img src="images/insta_footer.jpeg" alt="Insta"> </a> </div>
+            <div class="reseaux"> <a href="https://www.linkedin.com/company/isotop-france/mycompany/?viewAsMember=true"> <img src="images/lkd_footer.jpeg" alt="Linkedin"> </a> </div>
+        </div>
+
+
+       
+
+        <div id="les_liens">
+            <div id="img_tetris"> <a href="decennale.html"><img src="images/tetris.jpg" alt=""></a> </div>
+           <div id="numero_tetris">N° SV75018041T07762</div>
+           <div id="img_rge"> <a href="rge.html"><img src="images/rge.jpeg" alt=""></a> </div>
+           <div id="text_rge">E-E166224</div>
+           </div>
+
+           </div>
+        
+    </section>
+        
+    <div id="btn_rea_ite"><a href="image_iti.html">Nos réalisations en ITI</a> </div>
+        
+
+        
+         
+    <p id="titre">Isolation thermique par l'intérieur ( ITI )</p> 
+
+    <section class="globale">
+        <div id="text_globale">
+        <p>Facile et rapide à mettre en œuvre, l’isolation thermique par l’intérieur (ITI) est une solution d’isolation des murs très 
+            répandue sur le marché français. Découvrez son domaine d’application ainsi que les DTU en vigueur. Cet article s’adresse à 
+            ceux à la recherche de la meilleure solution pour l’Isolation Thermique des murs par l’Intérieur.</p> 
+            <br>
+        
+            <h3>PRINCIPE DE L’ISOLATION THERMIQUE INTÉRIEURE (ITI)</h3> 
+            
+        
+            <p>Les nombreux bénéfices offerts par l’ITI en font la technique d’isolation privilégiée en France. Elle permet en effet :</p>
+        
+                  <ul>
+                <li> d’anticiper l’évolution de la réglementation en réalisant des bâtiments passifs ou à bilan énergétique positif ; </li>
+                <li>  de réguler la température de la maison, et de contribuer ainsi à l’amélioration du confort de vie, été comme hiver ; </li>
+                 <li>de réaliser des économies d’énergie ;</li>
+                <li>de satisfaire aux exigences d’isolation et de confort acoustique ; </li>
+                <li>de conserver et de valoriser le bâti ;</li>
+                <li>de combiner simplicité et rapidité de mise en œuvre ; </li>
+                <li>d’obtenir un rapport performances / prix optimisé ;</li>
+                <li>de préserver toute liberté architecturale en façade.</li>
+                
+        </ul> 
+         <br>
+            <h3>Comment isoler les murs de l'intérieur ? </h3>
+            <p>Il existe deux principaux types de pose pour la mise en œuvre d'une isolation des murs intérieurs. Le professionnel 
+                peut procéder à un doublage sous ossatures ou bien à un doublage collé.  </p>
+        
+            <h4>Isolation par doublage sous ossature </h4>
+        
+            <p>La pose est rapide et pratique. Elle peut s’adapter à tout type de pièce dans le neuf comme en rénovation. 
+                Elle consiste à intercaler l’isolant dans une « cavité » le long du mur. La pose doit être jointive et continue sur 
+                l’ensemble de la paroi. L’ossature métallique placée au-devant de l’isolant va limiter les ponts thermiques. Il faut 
+                ensuite finaliser l’aménagement intérieur en vissant une plaque de plâtre. Le doublage sous ossatures est réalisable
+                 peu importe l’état du mur support. C’est donc l’occasion de rattraper les irrégularités qui peuvent s’y trouver. Vous
+                  pouvez utiliser plusieurs types de matériaux isolants, selon le niveau de performance thermique que vous souhaitez. 
+                  Pour ce type de travaux, les laines minérales sont les plus utilisées.</p>
+        
+                  <h4> par doublage collé avec panneau isolant</h4>
+                  <p>Cette solution d'isolation associe par collage deux éléments :</p>
+                  <ul>
+                      <li>Un isolant (laine de verre ou laine de roche, par exemple)</li>
+                      <li>Une plaque rigide L'opération est rapide. Le panneau de doublage est directement fixé sur le mur intérieur.</li>
+                  </ul>
+                  </div>
+    </section>
+
+
+
+        
+            <div class="bubble-text">
+                <p>
+            <h1>Isotop France </h1> 
+            34 rue Camille Pelletan, 92300 Levallois Perret <br>
+            Administrarif : <a href="tel:01 47 99 88 86">01 47 99 88 86</a> <br>
+            Permanence : <a href="tel:06 87 49 65 93">06 87 49 65 93</a> <br>
+            Mail : <a href="mailto:contact@isotopfrance.fr">contact@isotopfrance.fr</a> <br>
+            RGE Qualibat : E166224 <br>
+            RC-Décénale-Pro : N° SV75018041T07762
+        </p>
+          </div>
+          
+
+
+          
+            <div class="bubble-text2">
+                <p>
+                    <h1>Isotop Centre-Est </h1> 
+                   <span> 70 avenue des Bruyères, 69150 Décines Charpieu </span><br>
+                    Administrarif : <a href="tel:04 86 68 92 92">04 86 68 92 92</a> <br>
+                    Permanence : <a href="tel:01 55 25 88 66">01 55 25 88 66</a> <br>
+                    Mail : <a href="mailto:info@isotopcentreest.fr">info@isotopcentreest.fr</a> <br>
+                    RGE Qualibat : E178717 <br>
+                    RC-Décénale-Pro : N° SV75018041T03242
+                
+                </p>
+          </div>
+
+          <div class="bubble-text3">
+            <p>
+                <h1>Isotop Grand-Est </h1> 
+               <span> 2 rue de flacourt, 54120 Gelcourt </span><br>
+                Administrarif : <a href="tel:06 09 93 98 69">06 09 93 98 69</a> <br>
+                Permanence : <a href="tel:06 32 44 59 21">06 32 44 59 21</a> <br>
+                Mail : <a href="mailto:jk.isolation@gmail.com">jk.isolation@gmail.com</a> <br>
+                RGE Qualibat : E166224  <br>
+                RC-Décénale-Pro : N° SV75018041T07762
+            
+            </p>
+      </div>
+        
+          
+          <section class="les_img">
+            <div> <img src="images/rge_part.jpg" alt=""></div>
+            <div> <img src="images/cee.jpeg" alt=""></div>
+            <div> <img src="images/maprime.jpg" alt=""></div>
+            <div> <img src="images/cetelem.jpeg" alt=""></div>
+            <div> <img src="images/cofidis.jpeg" alt=""></div>
+            <div> <img src="images/ministere.jpg" alt=""></div>
+            <div> <img src="images/isover.jpeg" alt=""></div>
+            <div> <img src="images/actis.jpeg" alt=""></div>
+            <div> <img src="images/volcalis.jpeg" alt=""></div>
+            <div> <img src="images/polyprod.jpeg" alt=""></div>
+            <div> <img src="images/placo.jpeg" alt=""></div>
+            <div> <img src="images/acermi.jpeg" alt=""></div>
+            <div> <img src="images/klygroupe.jpeg" alt=""></div>
+            <div> <img src="images/igloo.jpeg" alt=""></div>
+            <div> <img src="images/rockwool.jpeg" alt=""></div>
+            <div> <img src="images/ursa.jpeg" alt=""></div>
+            <div> <img src="images/siniat.jpeg" alt=""></div>
+            <div> <img src="images/knauf.jpeg" alt=""></div>
+        
+        
+        </section>
+        
+        <div id="img_ite"><img src="images/img_iti.jpeg" alt=""></div>
+        <div id="img_ite2"><img src="images/img_iti2.jpeg" alt=""></div>
+        <div id="trait_fin"></div>
+
+
+
+</body>
+</html>
+
+
+
+
+        

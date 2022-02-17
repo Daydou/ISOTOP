@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="menu.css" rel="stylesheet">
+    <style>
+        #les_liens {
+            position: relative;
+            left: 30px;
+        }
+        #titre {
+            color: gray;
+            position: absolute;
+            top: 100px;
+            left: 400px;
+            font-size: 25px;
+            
+        }
+        #les_img {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            position: relative;
+            bottom: 400px;
+            left: 150px;
+           width: 1070px;
+           height: 15500px;
+        }
+        .images_avant,.images_apres {
+            width: 450px;
+            height: 450px;
+    
+           
+        }
+        
+        .images_avant img {
+            width: 100%;
+            height: 100%;
+        }
+        .images_apres img {
+            width: 100%;
+            height: 100%;
+        }
+        .label {
+            width: 120px;
+            height: 120px;
+           
+        }
+        .label img {
+            height: 100%;
+            width: 100%;
+            border-radius: 60px;
+        }
+        #les_label {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            position: absolute;
+            top: 300px;
+            left: 370px;
+            width: 1070px;
+            height:15500px;
+        }
+
+        @media screen and (max-width: 1260px) {
+            #les_img {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            position: relative;
+            bottom: 800px;
+            left: 310px;
+           width: 1070px;
+           height: 14500px;
+        }
+
+        .images_avant,.images_apres {
+            width: 400px;
+            height:400px;
+    
+           
+        }
+
+        #les_label {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            position: absolute;
+            top: 280px;
+            left: 370px;
+            width: 1070px;
+            height:14500px;
+        }
+
+        .label {
+            width: 100px;
+            height: 100px;
+           
+        }
+}
+    </style>
+</head>
+<body>
+    <section class="menu">
+
+        <div id="logo"> <a href="index.html"><img src="images/logo_iso.jpg" alt=""></a> </div> 
+
+        <div id="btn_testez"><a href="contact.html">Testez mon éligibilité</a> </div>
+
+
+        <div id="telephone">
+            <div id="logo_tel"> <img src="images/logo_telephone.jpeg" alt=""> </div>
+            <div id="btn_tel" ><a href="tel:06 87 49 65 93">06 87 49 65 93</a> </div>
+        </div>
+
+        <div id="contenaire">
+
+            <div id="les_7btn">
+    
+                <div id="titre_accueil" class="btn"><a href="index.html"><span>Accueil</span> </a></div>
+    
+                <br>
+    
+                <div id="titre_qui" class="btn"><span>Qui sommes-nous ?</span> 
+                    <div id="sous_qui" class="sous"> <a href="orga.html">Organigramme de la société</a> </div>
+                </div>
+    
+                <br>
+    
+                <div id="titre_metiers" class="btn"><span>Métiers</span> 
+                    <div id="sous_metiers" class="sous">
+                        <div id="les_metiers">
+                            <div class="metiers"><a href="ite.html">Isolation thermique des murs par l'extérieur</a></div>
+                            <div class="metiers"><a href="iti.html">Isolation thermique des murs par l'interieur</a></div>
+                            <div class="metiers"><a href="pac.html">Pompes à Chaleur</a></div>
+                            <div class="metiers"><a href="vmc.html">Vmc double flux</a></div>
+                            <div class="metiers"><a href="cag.html">Chaudière à granule</a></div>
+                            <div class="metiers"><a href="soufl.html">Isolation des combles par soufflage</a></div>
+                            <div class="metiers"><a href="sol.html">Isolation des combles en deroulé au sol</a></div>
+                            <div class="metiers"><a href="toit.html">Isolation des combles en rampant de toiture</a></div>
+                            <div class="metiers"><a href="couv.html">Couverture - Toiture</a></div>
+                            <div class="metiers"><a href="menuiserie.html">Menuiserie</a></div>
+                        </div>
+                    </div>
+                </div>
+    
+                <br>
+    
+                <div id="titre_part" class="btn"><a href="partenaire.html"><span>Partenaires</span> </a></div>
+    
+                <br>
+    
+                <div id="titre_cert" class="btn"><span>Certifications</span> 
+                    <div id="sous_cert" class="sous">
+                        <div class="cert"><a href="rge.html">Rge</a></div>
+                        <div class="cert"><a href="decennale.html">Décennale</a></div>
+                    </div>
+                </div>
+    
+                <br>
+    
+                <div id="titre_rea" class="btn"> <span>Réalisation</span> 
+                    <div id="sous_rea" class="sous">
+                        <div id="les_rea">
+                            <div class="rea"><a href="image_ite.html">Isolation thermique des murs par l'extérieur</a></div>
+                            <div class="rea"><a href="image_iti.html">Isolation thermique des murs par l'interieur</a></div>
+                            <div class="rea"><a href="image_pac.html">Pompes à Chaleur</a></div>
+                            <div class="rea"><a href="image_vmc.html">Vmc double flux</a></div>
+                            <div class="rea"><a href="image_cag.html">Chaudière à granule</a></div>
+                            <div class="rea"><a href="image_soufl.html">Isolation des combles par soufflage</a></div>
+                            <div class="rea"><a href="image_sol.html">Isolation des combles en deroulé au sol</a></div>
+                            <div class="rea"><a href="image_toit.html">Isolation des combles en rampant de toiture</a></div>
+                            <div class="rea"><a href="image_couv.html">Couverture - Toiture</a></div>
+                            <div class="rea"><a href="image_menuiserie.html">Menuiserie</a></div>
+                        </div>
+                    </div>
+                </div>
+    
+                <br>
+    
+                <div id="titre_contact" class="btn"><a href="contact.html"><span>Contact</span> </a></div>
+    
+            </div>
+        
+            <div id="les_7ellipses">
+                <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+                <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+                <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+                <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+                <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+                <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+                <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+            </div>
+    
+            <div id="titre_reseaux">Retrouvez-nous sur :</div>
+    
+            <div id="les_reseaux">
+                <div class="reseaux"> <a href="https://www.facebook.com/isotopfrance.fr"> <img src="images/fb_footer.jpeg" alt="FB"> </a> </div>
+                <div class="reseaux"> <a href="https://www.linkedin.com/company/isotop-france/mycompany/?viewAsMember=true"> <img src="images/snap.jpeg" alt="snap"> </a> </div>
+                <div class="reseaux"> <a href="https://www.linkedin.com/company/isotop-france/mycompany/?viewAsMember=true"> <img src="images/twitter.jpeg" alt="Twitter"> </a> </div>
+                <div class="reseaux"> <a href="https://www.instagram.com/isotop_france/?igshid=18crjsw3tgrlc"> <img src="images/insta_footer.jpeg" alt="Insta"> </a> </div>
+                <div class="reseaux"> <a href="https://www.linkedin.com/company/isotop-france/mycompany/?viewAsMember=true"> <img src="images/lkd_footer.jpeg" alt="Linkedin"> </a> </div>
+            </div>
+    
+    
+           
+    
+            <div id="les_liens">
+                <div id="img_tetris"> <a href="decennale.html"><img src="images/tetris.jpg" alt=""></a> </div>
+               <div id="numero_tetris">N° SV75018041T07762</div>
+               <div id="img_rge"> <a href="rge.html"><img src="images/rge.jpeg" alt=""></a> </div>
+               <div id="text_rge">E-E166224</div>
+               </div>
+    
+               </div>
+            
+        </section> 
+
+    <div id="titre"><p>Nos réalisations en isolation thermique des murs par l'extérieur</p></div>
+
+    <section id="les_img">
+        <div id="image1" class="images_avant" ><img src="images/avant_ite.jpg" alt=""></div>
+        <div id="image2" class="images_apres"><img src="images/apres_ite.jpg" alt=""></div>
+        <div id="image3" class="images_avant"><img src="images/avant2_ite.jpeg" alt=""></div>
+        <div id="image4" class="images_apres"><img src="images/apres2_ite.jpeg" alt=""></div>
+        <div id="image5" class="images_avant"><img src="images/avant3_ite.jpeg" alt=""></div>
+        <div id="image6" class="images_apres"><img src="images/apres3_ite.jpg" alt=""></div>
+        <div id="image7" class="images_avant"><img src="images/avant4_ite.jpeg" alt=""></div>
+        <div id="image8" class="images_apres"><img src="images/apres4_ite.jpg" alt=""></div>
+        <div id="image9" class="images_avant"><img src="images/avant5_ite.jpeg" alt=""></div>
+        <div id="image10" class="images_apres"><img src="images/apres5_ite.jpeg" alt=""></div>
+        <div id="image11" class="images_avant"><img src="images/avant6_ite.jpg" alt=""></div>
+        <div id="image12" class="images_apres"><img src="images/apres6_ite.jpeg" alt=""></div>
+        <div id="image13" class="images_avant"><img src="images/avant7_ite.jpg" alt=""></div>
+        <div id="image14" class="images_apres"><img src="images/apres7_ite.jpg" alt=""></div>
+        <div id="image15" class="images_avant"><img src="images/avant8_ite.jpg" alt=""></div>
+        <div id="image16" class="images_apres"><img src="images/apres8_ite.jpg" alt=""></div>
+        <div id="image17" class="images_avant"><img src="images/avant9_ite.jpg" alt=""></div>
+        <div id="image18" class="images_apres"><img src="images/apres9_ite.jpg" alt=""></div>
+        <div id="image19" class="images_avant"><img src="images/avant10_ite.jpeg" alt=""></div>
+        <div id="image20" class="images_apres"><img src="images/apres10_ite.jpg" alt=""></div>
+        <div id="image21" class="images_avant"><img src="images/avant11_ite.jpeg" alt=""></div>
+        <div id="image22" class="images_apres"><img src="images/apres11_ite.jpg" alt=""></div>
+        <div id="image21" class="images_avant"><img src="images/avant12_ite.jpeg" alt=""></div>
+        <div id="image22" class="images_apres"><img src="images/apres12_ite.jpeg" alt=""></div>
+        <div id="image21" class="images_avant"><img src="images/avant13_ite.jpeg" alt=""></div>
+        <div id="image22" class="images_apres"><img src="images/apres13_ite.jpeg" alt=""></div>
+        <div id="image21" class="images_avant"><img src="images/avant14_ite.jpeg" alt=""></div>
+        <div id="image22" class="images_apres"><img src="images/apres14_ite.jpeg" alt=""></div>
+        <div id="image21" class="images_avant"><img src="images/avant15_ite.jpeg" alt=""></div>
+        <div id="image22" class="images_apres"><img src="images/apres15_ite.jpeg" alt=""></div>
+        <div id="image21" class="images_avant"><img src="images/avant16_ite.jpeg" alt=""></div>
+        <div id="image22" class="images_apres"><img src="images/apres16_ite.jpeg" alt=""></div>
+        <div id="image21" class="images_avant"><img src="images/avant17_ite.jpeg" alt=""></div>
+        <div id="image22" class="images_apres"><img src="images/apres17_ite.jpeg" alt=""></div>
+        <div id="image21" class="images_avant"><img src="images/avant18_ite.jpeg" alt=""></div>
+        <div id="image22" class="images_apres"><img src="images/apres18_ite.jpeg" alt=""></div>
+        <div id="image21" class="images_avant"><img src="images/avant19_ite.jpeg" alt=""></div>
+        <div id="image22" class="images_apres"><img src="images/apres19_ite.jpeg" alt=""></div>
+        <div id="image21" class="images_avant"><img src="images/avant20_ite.jpeg" alt=""></div>
+        <div id="image22" class="images_apres"><img src="images/apres20_ite.jpeg" alt=""></div>
+        <div id="image21" class="images_avant"><img src="images/avant21_ite.jpg" alt=""></div>
+        <div id="image22" class="images_apres"><img src="images/apres21_ite.jpg" alt=""></div>
+        <div id="image21" class="images_avant"><img src="images/avant22_ite.jpeg" alt=""></div>
+        <div id="image22" class="images_apres"><img src="images/apres22_ite.jpeg" alt=""></div>
+        <div id="image21" class="images_avant"><img src="images/avant23_ite.jpeg" alt=""></div>
+        <div id="image22" class="images_apres"><img src="images/apres23_ite.jpeg" alt=""></div>
+        <div id="image21" class="images_avant"><img src="images/avant24_ite.jpeg" alt=""></div>
+        <div id="image22" class="images_apres"><img src="images/apres24_ite.jpeg" alt=""></div>
+        <div id="image21" class="images_avant"><img src="images/avant25_ite.jpeg" alt=""></div>
+        <div id="image22" class="images_apres"><img src="images/apres25_ite.jpeg" alt=""></div>
+        <div id="image21" class="images_avant"><img src="images/avant26_ite.jpeg" alt=""></div>
+        <div id="image22" class="images_apres"><img src="images/apres26_ite.jpeg" alt=""></div>
+        <div id="image21" class="images_avant"><img src="images/avant27_ite.jpeg" alt=""></div>
+        <div id="image22" class="images_apres"><img src="images/apres27_ite.jpeg" alt=""></div>
+        <div id="image21" class="images_avant"><img src="images/avant28_ite.jpeg" alt=""></div>
+        <div id="image22" class="images_apres"><img src="images/apres28_ite.jpeg" alt=""></div>
+        <div id="image21" class="images_avant"><img src="images/avant29_ite.jpeg" alt=""></div>
+        <div id="image22" class="images_apres"><img src="images/apres29_ite.jpeg" alt=""></div>
+        <div id="image21" class="images_avant"><img src="images/avant30_ite.jpeg" alt=""></div>
+        <div id="image22" class="images_apres"><img src="images/apres30_ite.jpeg" alt=""></div>
+        <div id="image21" class="images_avant"><img src="images/avant31_ite.jpeg" alt=""></div>
+        <div id="image22" class="images_apres"><img src="images/apres31_ite.jpeg" alt=""></div>
+        <div id="image21" class="images_avant"><img src="images/avant32_ite.jpeg" alt=""></div>
+        <div id="image22" class="images_apres"><img src="images/apres32_ite.jpeg" alt=""></div>
+        <div id="image21" class="images_avant"><img src="images/avant33_ite.jpg" alt=""></div>
+        <div id="image22" class="images_apres"><img src="images/apres33_ite.jpg" alt=""></div>
+
+    </section>
+
+    <div id="les_label">
+
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_avant.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   <div class="label"> <img src="images/label_apres.jpeg" alt=""> </div>
+   
+     </div>  
+
+</body>
+</html>

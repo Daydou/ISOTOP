@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isotopfrance</title>
+    <link href="menu.css" rel="stylesheet">
+
+    
+    <style>
+
+
+#titre {
+        position: relative; 
+        bottom: 610px;
+        left: 600px;
+        color: #303030;
+        text-decoration: none;
+        text-underline-offset: 0.2em;   
+        font-size: 2em;  
+        display: inline-block;
+     }
+     #titre:after { 
+         content: ''; 
+     width: 100%; 
+     position: absolute; 
+     left: 0; 
+     bottom: 1px; 
+     border-width: 0 0 1px; 
+     border-style: solid;
+     }
+
+     .globale {
+        position: relative;
+        width: 700px;
+        height: 830px;
+        left: 400px;
+        bottom: 550px;
+        background: linear-gradient(to right, gainsboro,gainsboro, gainsboro);
+        border: solid 1px black;border-radius: 5px;
+        padding: 10px;
+        text-align: justify;
+        z-index: -1;
+        color: #303030;
+    }
+    #text_globale {
+        display: inline-block;
+        position: relative;
+        bottom: 230px;
+    }
+    #btn_rea_ite {
+     text-decoration: none;
+    color: lightgray;
+    
+    position: absolute;
+    top: 165px;
+    left: 590px;
+}
+
+
+#btn_rea_ite a {
+    display: inline-block;
+    text-decoration: none;
+    color: lightgray;
+    background: linear-gradient(to right, green, #303030, darkorange);
+    font-size: medium;
+    border: solid 3px  gray;
+    padding: 10px;
+    -webkit-animation-name: clignote;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-iteration-count:infinite; 
+    
+}
+.bubble-text{
+    color:#303030; 
+    border-radius:3px;
+    padding-left: 15px;
+    left: 30px;
+    bottom: 480px;
+    width: 380px;
+    position: relative;
+    border: solid 4px aqua;
+}
+
+
+
+.bubble-text2{
+    color:#303030; 
+    padding-left: 15px;
+    padding-right: 10px;
+    bottom: 701px;
+border-radius:3px;
+    left: 510px;
+    position: relative;
+    border: solid 4px 	#FF1493;
+    width: 380px;
+}
+.bubble-text2 span {
+    width: 100%;
+}
+
+.bubble-text3{
+    color:#303030; 
+    padding-left: 15px;
+    padding-right: 10px;
+    bottom: 931px;
+border-radius:3px;
+    left: 1000px;
+    position: relative;
+    border: solid 4px 	#00ff66;
+    width: 380px;
+}
+.bubble-text3 span {
+    width: 100%;
+}
+.les_img {
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    position: relative;
+    bottom:860px;
+    
+    border-radius: 5px;
+    padding: 5px;
+    white-space: 1px;
+
+}
+.les_img img {
+    width: 100%;
+    height: 100%;
+}
+.les_img div {
+    width: 110px;
+    height: 110px;
+}
+#img_ite {
+    width: 340px;
+    height: 300px;
+    position: relative;
+    bottom: 1970px;
+    left: 1100px;
+    z-index: -2;
+}
+#img_ite img {
+    width: 100%;
+    height: 100%;
+}
+
+#img_ite2 {
+    width: 330px;
+    height: 200px;
+    position: relative;
+    left: 1100px;
+    bottom: 2480px;
+    z-index: -2;
+}
+#img_ite2 img {
+    width: 100%;
+    height: 100%;
+}
+#trait_fin {
+    position: relative;
+    bottom: 1600px;
+    width: 100%;
+    background-color: black;
+    height: 1px;
+}
+
+
+   </style>
+
+</head>
+<body>
+
+
+    <section class="menu">
+
+        <div id="logo"> <a href="index.html"><img src="images/logo_iso.jpg" alt=""></a> </div> 
+        
+        <div id="btn_testez"><a href="contact.html">Testez mon éligibilité</a> </div>
+
+
+        <div id="telephone">
+            <div id="logo_tel"> <img src="images/logo_telephone.jpeg" alt=""> </div>
+            <div id="btn_tel" ><a href="tel:01 55 25 88 65">01 55 25 88 65</a> </div>
+        </div>
+
+         <div id="contenaire">
+
+        <div id="les_7btn">
+
+            <div id="titre_accueil" class="btn"><a href="index.html"><span>Accueil</span> </a></div>
+
+            <br>
+
+            <div id="titre_qui" class="btn"><span>Qui sommes-nous ?</span> 
+                <div id="sous_qui" class="sous"> <a href="orga.html">Organigramme de la société</a> </div>
+            </div>
+
+            <br>
+
+            <div id="titre_metiers" class="btn"><span>Métiers</span> 
+                <div id="sous_metiers" class="sous">
+                    <div id="les_metiers">
+                        <div class="metiers"><a href="ite.html">Isolation thermique des murs par l'extérieur</a></div>
+                        <div class="metiers"><a href="iti.html">Isolation thermique des murs par l'interieur</a></div>
+                        <div class="metiers"><a href="pac.html">Pompes à Chaleur</a></div>
+                        <div class="metiers"><a href="vmc.html">Vmc double flux</a></div>
+                        <div class="metiers"><a href="cag.html">Chaudière à granule</a></div>
+                        <div class="metiers"><a href="soufl.html">Isolation des combles par soufflage</a></div>
+                        <div class="metiers"><a href="sol.html">Isolation des combles en deroulé au sol</a></div>
+                        <div class="metiers"><a href="toit.html">Isolation des combles en rampant de toiture</a></div>
+                        <div class="metiers"><a href="couv.html">Couverture - Toiture</a></div>
+                        <div class="metiers"><a href="menuiserie.html">Menuiserie</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div id="titre_part" class="btn"><a href="partenaire.html"><span>Partenaires</span> </a></div>
+
+            <br>
+
+            <div id="titre_cert" class="btn"><span>Certifications</span> 
+                <div id="sous_cert" class="sous">
+                    <div class="cert"><a href="rge.html">Rge</a></div>
+                    <div class="cert"><a href="decennale.html">Décennale</a></div>
+                </div>
+            </div>
+
+            <br>
+
+            <div id="titre_rea" class="btn"> <span>Réalisation</span> 
+                <div id="sous_rea" class="sous">
+                    <div id="les_rea">
+                        <div class="rea"><a href="image_ite.html">Isolation thermique des murs par l'extérieur</a></div>
+                        <div class="rea"><a href="image_iti.html">Isolation thermique des murs par l'interieur</a></div>
+                        <div class="rea"><a href="image_pac.html">Pompes à Chaleur</a></div>
+                        <div class="rea"><a href="image_vmc.html">Vmc double flux</a></div>
+                        <div class="rea"><a href="image_cag.html">Chaudière à granule</a></div>
+                        <div class="rea"><a href="image_soufl.html">Isolation des combles par soufflage</a></div>
+                        <div class="rea"><a href="image_sol.html">Isolation des combles en deroulé au sol</a></div>
+                        <div class="rea"><a href="image_toit.html">Isolation des combles en rampant de toiture</a></div>
+                        <div class="rea"><a href="image_couv.html">Couverture - Toiture</a></div>
+                        <div class="rea"><a href="image_menuiserie.html">Menuiserie</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div id="titre_contact" class="btn"><a href="contact.html"><span>Contact</span> </a></div>
+
+        </div>
+    
+        <div id="les_7ellipses">
+            <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+            <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+            <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+            <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+            <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+            <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+            <div class="ellipse"> <img src="images/ellipse.jpg" alt=""></div>
+        </div>
+
+        <div id="titre_reseaux">Retrouvez-nous sur :</div>
+
+        <div id="les_reseaux">
+            <div class="reseaux"> <a href="https://www.facebook.com/isotopfrance.fr"> <img src="images/fb_footer.jpeg" alt="FB"> </a> </div>
+            <div class="reseaux"> <a href="https://www.linkedin.com/company/isotop-france/mycompany/?viewAsMember=true"> <img src="images/snap.jpeg" alt="snap"> </a> </div>
+            <div class="reseaux"> <a href="https://www.linkedin.com/company/isotop-france/mycompany/?viewAsMember=true"> <img src="images/twitter.jpeg" alt="Twitter"> </a> </div>
+            <div class="reseaux"> <a href="https://www.instagram.com/isotop_france/?igshid=18crjsw3tgrlc"> <img src="images/insta_footer.jpeg" alt="Insta"> </a> </div>
+            <div class="reseaux"> <a href="https://www.linkedin.com/company/isotop-france/mycompany/?viewAsMember=true"> <img src="images/lkd_footer.jpeg" alt="Linkedin"> </a> </div>
+        </div>
+
+
+      
+
+        <div id="les_liens">
+            <div id="img_tetris"> <a href="decennale.html"><img src="images/tetris.jpg" alt=""></a> </div>
+           <div id="numero_tetris">N° SV75018041T07762</div>
+           <div id="img_rge"> <a href="rge.html"><img src="images/rge.jpeg" alt=""></a> </div>
+           <div id="text_rge">E-E166224</div>
+           </div>
+           </div>
+           
+    </section>
+        
+    <div id="btn_rea_ite"><a href="image_cag.html">Nos réalisations en chaudière à granule</a> </div>
+        
+
+        
+         
+    <p id="titre">Chaudière à granule</p> 
+
+<section class="globale">
+    <div id="texte_globale">
+    <p>La chaudière à granulés de bois produit de la chaleur pour toute votre maison grâce à une énergie renouvelable, 
+        le bois. Comme une chaudière classique, elle peut fonctionner en complète autonomie et produire votre eau chaude 
+        sanitaire.</p> <br>
+
+       <br>
+
+        <h3>Comment ça fonctionne ? </h3>
+        
+
+        <p>La chaudière granulés de bois fonctionne de manière très simple. La combustion des granulés, aussi appelés "pellets", 
+            fait monter l'eau de votre circuit de chauffage central en température. La chaudière est reliée à vos radiateurs ou 
+            votre plancher chauffant et apporte de la chaleur dans toutes les pièces de votre logement.
+
+         <br>
+             La chaudière à granulés peut avoir une double fonction. En lui reliant un ballon de stockage, elle fournira toute 
+             l'eau chaude dont votre foyer a besoin.   </p>
+  
+              <br>
+
+              
+        <h3>Un chauffage plein d'avantages</h3>
+        <h4>Elle est très performante</h4>
+        <p>La chaudière à granulés se sert du haut pouvoir calorifique des pellets, ce qui lui permet d’atteindre un rendement 
+            énergétique supérieurs à 90 %. Bien plus que la majorité des systèmes de chauffage classiques ! Pour augmenter encore 
+            plus ses performances, l’appareil peut être associée à des appareils de régulation : programmateur, thermostat, 
+            robinets thermostatiques, domotique. </p>
+            
+            <h4>Elle est rentable</h4>
+            <p>La chaudière à granulés de bois vous permet de réaliser  jusqu’à 30% d’économies d’énergie par rapport à une chaudière 
+                classique. </p>
+                
+                <h4>Elle est écologique</h4>
+                <p>Les granulés de bois sont un produit transformé obtenu par la récupération de copeaux ou de sciures de bois. 
+                    Ils sont donc beaucoup plus écologiques que le fioul, qui est une énergie fossile et polluante. La chaudière 
+                    à pellets est donc un excellent compromis entre performances de chauffage et impact environnemental.</p>
+                    </div>
+</section>
+
+
+
+
+        
+            <div class="bubble-text">
+                <p>
+            <h1>Isotop France </h1> 
+            34 rue Camille Pelletan, 92300 Levallois Perret <br>
+            Administrarif : <a href="tel:01 47 99 88 86">01 47 99 88 86</a> <br>
+            Permanence : <a href="tel:06 87 49 65 93">06 87 49 65 93</a> <br>
+            Mail : <a href="mailto:contact@isotopfrance.fr">contact@isotopfrance.fr</a> <br>
+            RGE Qualibat : E166224 <br>
+            RC-Décénale-Pro : N° SV75018041T07762
+        </p>
+          </div>
+          
+
+
+          
+          
+          <div class="bubble-text2">
+            <p>
+                <h1>Isotop Centre-Est </h1> 
+               <span> 70 avenue des Bruyères, 69150 Décines Charpieu </span><br>
+                Administrarif : <a href="tel:04 86 68 92 92">04 86 68 92 92</a> <br>
+                Permanence : <a href="tel:06 21 81 82 00">06 21 81 82 00</a> <br>
+                Mail : <a href="mailto:info@isotopcentreest.fr">info@isotopcentreest.fr</a> <br>
+                RGE Qualibat : E178717 <br>
+                RC-Décénale-Pro : N° SV75018041T03242
+            
+            </p>
+      </div>
+
+      <div class="bubble-text3">
+        <p>
+            <h1>Isotop Grand-Est </h1> 
+           <span> 2 rue de flacourt, 54120 Gelcourt </span><br>
+            Administrarif : <a href="tel:06 09 93 98 69">06 09 93 98 69</a> <br>
+            Permanence : <a href="tel:06 32 44 59 21">06 32 44 59 21</a> <br>
+            Mail : <a href="mailto:jk.isolation@gmail.com">jk.isolation@gmail.com</a> <br>
+            RGE Qualibat : E166224  <br>
+            RC-Décénale-Pro : N° SV75018041T07762
+        
+        </p>
+  </div>
+        
+          
+          <section class="les_img">
+            <div> <img src="images/rge_part.jpg" alt=""></div>
+            <div> <img src="images/cee.jpeg" alt=""></div>
+            <div> <img src="images/maprime.jpg" alt=""></div>
+            <div> <img src="images/cetelem.jpeg" alt=""></div>
+            <div> <img src="images/cofidis.jpeg" alt=""></div>
+            <div> <img src="images/ministere.jpg" alt=""></div>
+            <div> <img src="images/isover.jpeg" alt=""></div>
+            <div> <img src="images/actis.jpeg" alt=""></div>
+            <div> <img src="images/volcalis.jpeg" alt=""></div>
+            <div> <img src="images/polyprod.jpeg" alt=""></div>
+            <div> <img src="images/placo.jpeg" alt=""></div>
+            <div> <img src="images/acermi.jpeg" alt=""></div>
+            <div> <img src="images/klygroupe.jpeg" alt=""></div>
+            <div> <img src="images/igloo.jpeg" alt=""></div>
+            <div> <img src="images/rockwool.jpeg" alt=""></div>
+            <div> <img src="images/ursa.jpeg" alt=""></div>
+            <div> <img src="images/siniat.jpeg" alt=""></div>
+            <div> <img src="images/knauf.jpeg" alt=""></div>
+        
+        
+        </section>
+        
+        <div id="img_ite"><img src="images/img_cag.jpeg" alt=""></div>
+        <div id="img_ite2"><img src="images/img_cag2.jpeg" alt=""></div>
+        <div id="trait_fin"></div>
+
+ 
+
+</body>
+</html>
+
+
+
+
+        
+
+
+
+
+
+
+
+

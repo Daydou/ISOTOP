@@ -1,0 +1,366 @@
+
+
+   form {
+       background-color: ghostwhite;
+          border-radius: 5px;
+          border: solid 1px black;
+          position: absolute;
+          top: 100px;
+          width: 700px;
+          height: 650px;
+          left: 450px;
+          overflow: scroll;
+          overflow-x: hidden ;
+   }
+   .image_step:hover {
+       border: solid 5px aqua;
+   }
+   #titre1 {
+       width: 690px;
+   position: relative;
+   left: 10px;
+   top: 50px;
+   color: #303030;
+   font-size: 20px;
+   }
+   #p1 {
+       color: #72c20b;
+   }
+   #p2 {
+       color: #303030;
+   }
+   #p3 {
+       color: darkorange;
+   }
+   
+   .text2_step1 {
+       position: relative;
+   left: 100px;
+   top: 190px;
+   color: #303030;
+   font-size: 18px;
+   font-weight: bolder;
+   width: 530px;
+   }
+   
+   .les_traits {
+          display: grid;
+          grid-template-columns: repeat(10,1fr);
+          position: absolute;
+          top: 140px;
+          width: 100%;
+      }
+   
+      #trait1 {
+          width: 11px;
+          height: 11px;
+          background-color: white;
+          border-radius: 40px;
+      }
+      #trait2 {
+       width: 11px;
+          height: 11px;
+          background-color: white;
+          border-radius: 40px;
+      }
+      #trait3 {
+       width: 11px;
+          height: 11px;
+          background-color: white;
+          border-radius: 40px;
+      }
+      #trait4 {
+       width: 11px;
+          height: 11px;
+          background-color: white;
+          border-radius: 40px;
+      }
+      #trait5 {
+       width: 11px;
+          height: 11px;
+          background-color: white;
+          border-radius: 40px;
+      }
+      #trait6 {
+       width: 11px;
+          height: 11px;
+          background-color: white;
+          border-radius: 40px;
+      }
+      #trait7 {
+       width: 11px;
+          height: 11px;
+          background-color: white;
+          border-radius: 40px;
+      }
+      #trait8 {
+       width: 11px;
+          height: 11px;
+          background-color: white;
+          border-radius: 40px;
+      }
+      #trait9 {
+       width: 11px;
+          height: 11px;
+          background-color: white;
+          border-radius: 40px;
+      }
+      #trait10 {
+       width: 11px;
+          height: 11px;
+          background-color: white;
+          border-radius: 40px;
+      }
+   
+      #trait11 {
+       width: 11px;
+          height: 11px;
+          background-color: white;
+          border-radius: 40px;
+      }
+      progress {
+       display:inline-block;
+       width:100%;
+       height:20px;
+       padding:15px 0 0 0;
+       margin:0;
+       background:none;
+       border: 0;
+       border-radius: 15px;
+       text-align: left;
+       position:relative;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 0.8em;
+       top: 79px;
+      }
+      progress::-webkit-progress-bar {
+       height:11px;
+       width:100%;
+       margin:0 auto;
+       background-color: #CCC;
+       border-radius: 15px;
+   }
+   progress::-webkit-progress-value {
+       display:inline-block;
+       height:11px;
+       margin:0px -10px 0 0;
+       background: linear-gradient(to right, #72c20b, #303030, darkorange);
+       border-radius: 15px;
+       float:left;
+   
+   }
+   
+   .image_step {
+       height: 150px;
+       width: 150px;
+       border-radius: 5px;
+       border: solid 1px black;
+       transition: 0.3s;
+       cursor: pointer;
+   }
+ 
+
+   
+  
+   .valider1 {
+       height: 30px;
+       width: 30px;
+       display: none;
+   }
+   
+   
+   #image1_step1_visible {
+       position: absolute;
+       top: 309px;
+       left: 40px;
+   }
+   #image2_step1_visible {
+       position: absolute;
+       top: 309px;
+       left: 270px;
+   }
+   #image3_step1_visible {
+       position: absolute;
+       top: 309px;
+       left: 507px;
+   }
+   #image4_step1_visible {
+       position: absolute;
+       top: 560px;
+       left: 40px;
+   }
+   #image5_step1_visible {
+       position: absolute;
+       top: 560px;
+       left: 270px;
+   }
+   #image6_step1_visible {
+       position: absolute;
+       top: 560px;
+       left: 507px;
+   }
+   #image7_step1_visible {
+       position: absolute;
+       top: 800px;
+       left: 40px;
+   }
+   #image8_step1_visible {
+       position: absolute;
+       top: 800px;
+       left: 270px;
+   }
+   #image9_step1_visible {
+       position: absolute;
+       top: 800px;
+       left: 507px;
+   }
+   #image10_step1_visible {
+       position: absolute;
+       top: 1050px;
+       left: 40px;
+   }
+   #text_image1_step1 {
+       position: relative;
+           top: 410px;
+           left: 25px;
+           width: 200px;
+   }
+   #text_image2_step1 {
+       position: relative;
+          left: 260px;
+          top: 370px;
+          width: 200px;
+   }
+   #text_image3_step1 {
+       position: relative;
+          left: 515px;
+          top: 330px;
+           width: 170px;
+   }
+   #text_image4_step1 {
+       position: relative;
+           top: 560px;
+           left: 50px;
+           width: 250px;
+   }
+   #text_image5_step1 {
+       position: relative;
+           top: 540px;
+           left: 265px;
+           width: 170px;
+   }
+   #text_image6_step1 {
+       position: relative;
+           top: 520px;
+           left: 500px;
+           width: 170px;
+   }
+   #text_image7_step1 {
+       position: relative;
+           top: 720px;
+           left: 23px;
+           width: 200px;
+   }
+   #text_image8_step1 {
+       position: relative;
+           top: 680px;
+           left: 255px;
+           width: 200px;
+   }
+   #text_image9_step1 {
+       position: relative;
+           top: 640px;
+           left: 510px;
+           width: 160px;
+   }
+   #text_image10_step1 {
+       position: relative;
+           top: 870px;
+           left: 70px;
+           width: 160px;
+           margin-bottom: 20px;
+   }
+   
+   
+   #suivant_step1 {
+           background: linear-gradient(to right, #72c20b, #303030, darkorange);
+     border: solid 1px black;
+     border-radius: 7px;
+     padding: 10px;
+     font-size: 16px;
+     width: 120px;
+     position: absolute;
+     color: lightgray;
+     bottom: -680px;
+     right: 70px;
+     height: 40px;
+     cursor: pointer;
+   }
+   #suivant_step1:hover {
+       border: solid 3px aqua;
+       color: aqua;
+   }
+   input[type=checkbox]{
+    display: none;
+}
+
+#image_valider1_step1{
+
+position: absolute;
+top: 275px;
+left: 160px;
+}
+#image_valider2_step1{
+    
+    position: absolute;
+    top: 275px;
+    left: 390px;
+}
+#image_valider3_step1{
+   
+    position: absolute;
+    top: 275px;
+    left: 625px;
+
+}
+#image_valider4_step1{
+   
+    position: absolute;
+    top: 525px;
+    left: 160px;
+}
+#image_valider5_step1{
+   
+    position: absolute;
+    top: 525px;
+    left: 390px;
+}
+#image_valider6_step1{
+    position: absolute;
+    top: 525px;
+    left: 625px;
+}
+#image_valider7_step1{
+   
+    position: absolute;
+    top: 765px;
+    left: 160px;
+}
+#image_valider8_step1{
+    
+    position: absolute;
+    top: 765px;
+    left: 390px;
+}
+#image_valider9_step1{
+   
+    position: absolute;
+    top: 765px;
+    left: 625px;
+}
+#image_valider10_step1{
+   
+    position: absolute;
+    top: 1015px;
+    left: 160px;
+}
